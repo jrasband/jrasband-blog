@@ -1,9 +1,7 @@
-
-
 # Basic config
 baseURL = 'https://jrasband.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Joshua Rasband's Blog"
 copyright = "Joshua Rasband (CC BY 4.0)"
 theme = 'hugo-bearcub'
 
@@ -34,7 +32,7 @@ enableRobotsTXT = true
     LanguageCode = "en-US"
     contentDir = "content"
     [languages.en.params]
-      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+      madeWith = "Made with [ox-hugo](https://ox-hugo.scripter.co/) and [Bear Cub](https://github.com/clente/hugo-bearcub)"
 
 [params]
   # The description of your website

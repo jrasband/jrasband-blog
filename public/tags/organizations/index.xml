@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Organizations on Joshua Rasband&#39;s blog</title>
+    <link>http://localhost:1313/tags/organizations/</link>
+    <description>Recent content in Organizations on Joshua Rasband&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <managingEditor>contact@jrasband.com (Joshua Rasband)</managingEditor>
+    <webMaster>contact@jrasband.com (Joshua Rasband)</webMaster>
+    <copyright>Joshua Rasband (CC BY 4.0)</copyright>
+    <lastBuildDate>Sun, 29 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/organizations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Against additive solutions</title>
+      <link>http://localhost:1313/posts/2024-09-29-against-additive-solutions/</link>
+      <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate><author>contact@jrasband.com (Joshua Rasband)</author>
+      <guid>http://localhost:1313/posts/2024-09-29-against-additive-solutions/</guid>
+      <description>&lt;p&gt;I was recently in a meeting where, multiple times, the default response to a&#xA;problem was &amp;ldquo;we should form a committee to respond to the issue&amp;rdquo; or &amp;ldquo;someone&#xA;should be appointed to take care of this issue.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;I think this is a natural way to view problems and solutions. It&amp;rsquo;s a&#xA;human-centric view. In this view, problems get solved by people. When some&#xA;problem isn&amp;rsquo;t getting solved because it&amp;rsquo;s not in anyone&amp;rsquo;s job description to&#xA;solve the problem, the logical response is to either delegate authority and&#xA;responsibility for solving the problem to a person or a committee.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I was recently in a meeting where, multiple times, the default response to a
+problem was &ldquo;we should form a committee to respond to the issue&rdquo; or &ldquo;someone
+should be appointed to take care of this issue.&rdquo;</p>
+<p>I think this is a natural way to view problems and solutions. It&rsquo;s a
+human-centric view. In this view, problems get solved by people. When some
+problem isn&rsquo;t getting solved because it&rsquo;s not in anyone&rsquo;s job description to
+solve the problem, the logical response is to either delegate authority and
+responsibility for solving the problem to a person or a committee.</p>
+<p>It&rsquo;s a natural way to view problem-solving in organizations, but it&rsquo;s totally
+wrong.</p>
+<p>The first reason it&rsquo;s wrong is because it&rsquo;s what I call an &ldquo;additive&rdquo; solution.
+The proposed solutions (forming a committee or appointing someone to address the
+problem) will either add to the headcount of your organization or they will add
+to the demands on people already at your organization.</p>
+<p>What&rsquo;s so bad about additive solutions? It has to do with being able to predict
+the downstream effects of the implemented solution. There is a fundamental
+difference between a solution that involves adding a new component to a system,
+versus a solution that takes away or modifies components that were already
+there. When you add a new component, it&rsquo;s very difficult to anticipate all the
+interactions that it will have with other components. In contrast, when you
+modify or remove existing components, it&rsquo;s much easier to anticipate the
+consequences by examining the role the component already plays in the system.</p>
+<p>Additive solutions are slow. Creating a new component for your system is almost
+certainly going to take more time than tweaking (or removing) something that&rsquo;s
+already there. When starting from scratch, the design space is huge. In
+constrast, when you&rsquo;re starting from an existing part, its attributes are mostly
+fixed and you can think about a few dimensions that might need modification. At
+the most extreme, you can decide to remove the component, which can be done
+incredibly quickly.</p>
+<p>Additive solutions are difficult to unwind. One a committee has been formed or a
+person given a new responsibility, it is very difficult to turn back the clock,
+even after the problem has been solved.</p>
+<p>What&rsquo;s the alternative to additive solutions? Solutions that either modify or
+remove existing components of the system. In my opinion, this is the most
+effective way to solve problems because the problems are usually the result of
+interactions of existing system components. Instead of adding downstream
+components to solve problems that were introduced previously, why not go
+upstream and prevent the problem from occurring in the first place?</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

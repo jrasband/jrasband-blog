@@ -9,21 +9,69 @@
     <managingEditor>contact@jrasband.com (Joshua Rasband)</managingEditor>
     <webMaster>contact@jrasband.com (Joshua Rasband)</webMaster>
     <copyright>Joshua Rasband (CC BY 4.0)</copyright>
-    <lastBuildDate>Sat, 12 Aug 2017 17:05:38 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tag1</title>
-      <link>http://localhost:1313/tags/tag1/</link>
-      <pubDate>Sat, 12 Aug 2017 17:05:38 -0400</pubDate><author>contact@jrasband.com (Joshua Rasband)</author>
-      <guid>http://localhost:1313/tags/tag1/</guid>
+      <title>Learning</title>
+      <link>http://localhost:1313/tags/learning/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><author>contact@jrasband.com (Joshua Rasband)</author>
+      <guid>http://localhost:1313/tags/learning/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>Tag2</title>
-      <link>http://localhost:1313/tags/tag2/</link>
-      <pubDate>Sat, 12 Aug 2017 17:05:38 -0400</pubDate><author>contact@jrasband.com (Joshua Rasband)</author>
-      <guid>http://localhost:1313/tags/tag2/</guid>
+      <title>Parenting</title>
+      <link>http://localhost:1313/tags/parenting/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><author>contact@jrasband.com (Joshua Rasband)</author>
+      <guid>http://localhost:1313/tags/parenting/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Book</title>
+      <link>http://localhost:1313/tags/book/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate><author>contact@jrasband.com (Joshua Rasband)</author>
+      <guid>http://localhost:1313/tags/book/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Review</title>
+      <link>http://localhost:1313/tags/review/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate><author>contact@jrasband.com (Joshua Rasband)</author>
+      <guid>http://localhost:1313/tags/review/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Organizations</title>
+      <link>http://localhost:1313/tags/organizations/</link>
+      <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate><author>contact@jrasband.com (Joshua Rasband)</author>
+      <guid>http://localhost:1313/tags/organizations/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>http://localhost:1313/tags/education/</link>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate><author>contact@jrasband.com (Joshua Rasband)</author>
+      <guid>http://localhost:1313/tags/education/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>http://localhost:1313/tags/testing/</link>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate><author>contact@jrasband.com (Joshua Rasband)</author>
+      <guid>http://localhost:1313/tags/testing/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>http://localhost:1313/tags/writing/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate><author>contact@jrasband.com (Joshua Rasband)</author>
+      <guid>http://localhost:1313/tags/writing/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>

@@ -1,30 +1,186 @@
 #+hugo_base_dir: ../
 
-* Welcome
+* Home
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_MENU: :menu main
+:EXPORT_HUGO_SECTION: /
 :END:
-Welcome to my website!
-* DONE My first post :tag1:@category1:tag2:
+* Blog
 :PROPERTIES:
-:EXPORT_FILE_NAME: my-first-post
-:EXPORT_DATE: 2017-08-12T17:05:38-04:00
+:EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_MENU: :menu main
 :END:
-This is my post body.
-\(\frac{1}{N}\sum^{n}_{i=1}\sigma_{i}^{2} = \sigma^2\)
+* About
+:PROPERTIES:
+:EXPORT_FILE_NAME: about
+:EXPORT_HUGO_SECTION: /
+:EXPORT_HUGO_MENU: :menu main
+:END:
+- MD/PhD student in the United States
+- Currently working on a neuroscience PhD
+* Time to write :writing:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-09-27-time-to-write
+:EXPORT_DATE: 2024-09-27
+:END:
+#+begin_quote
+If writing down your ideas always makes them more precise and more complete,
+then no one who hasn't written about a topic has fully formed ideas about it.
+And someone who never writes has no fully formed ideas about anything
+nontrivial.
 
-LaTeX formatted equation: \( E = -J \sum_{i=1}^N s_i s_{i+1 }\)
+---Paul Graham
+#+end_quote
 
-\begin{equation}
-\label{eq:1}
-C = W\log_{2} (1+\mathrm{SNR})
-\end{equation}
+I think that the next phase of my self-education is writing. Here's why:
 
-#+begin_example
-If $a^2=b$ and \( b=2 \), then the solution must be either
-$$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \]
-#+end_example
+*Writing generates an error signal:* Writing externalizes your thought process,
+which makes it easier to reflect on which of your thoughts need to improve.
 
-If $a^2=b$ and \( b=2 \), then the solution must be either
-$$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \]
+*Writing is a form of retrieval practice:* Retrieval practice is the best
+known technique for building and strengthening long-term memory.
 
+These two factors make writing a highly efficient learning technique.
+
+Because I've previously had a hard time writing consistently, I'm making a
+commitment: for the next month (until October 27th, 2024), I will write one blog
+post every day. They probably won't be very long (or very good), but I'm going to
+write them.
+* Testing and worth :education:testing:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-09-28-testing-and-worth
+:EXPORT_DATE: 2024-09-28
+:END:
+In standardized education the primary purpose of an exam is to measure how much
+a student is "worth." This is wrong. The primary purpose of an exam should be to
+determine what the student knows.
+
+What is it that people do with exam grades? They use them to compare students
+against each other, as a way to determine which students are "better" than other
+students. A grade serves much the same function as a price in a marketplace---it
+abstracts away all of the details until you have a single number that you can
+use to compare unlike things. Grades are one of the primary metrics for
+determining whether a student will be admitted to a university, admitted to a
+doctoral program, or offered an internship or job. The primary purpose of exam
+grades is therefore to determine which students are "better" or "worse" than
+others, because that is how people use grades.
+
+I think it's wrong to abstract away all information about a student's knowledge
+until all that is left is a single, crude numeric measure. When a teacher (or a
+student) sees a grade, it is an extremely imprecise error signal.
+
+The purpose of teaching is learning, and learning is better served by a precise
+error signal, one which gives the student and the teacher feedback about what
+the student does know and what the student doesn't know. Exams and grading must
+be structured so that they are a measure of knowledge and knowledge gaps. Until
+then, exams will be a measure of "worth," and students who do poorly on exams
+will view themselves as being unworthy or less valuable when they instead should
+view themselves as just not knowing something yet.
+* Against additive solutions :organizations:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-09-29-against-additive-solutions
+:EXPORT_DATE: 2024-09-29
+:END:
+I was recently in a meeting where, multiple times, the default response to a
+problem was "we should form a committee to respond to the issue" or "someone
+should be appointed to take care of this issue."
+
+I think this is a natural way to view problems and solutions. It's a
+human-centric view. In this view, problems get solved by people. When some
+problem isn't getting solved because it's not in anyone's job description to
+solve the problem, the logical response is to either delegate authority and
+responsibility for solving the problem to a person or a committee.
+
+It's a natural way to view problem-solving in organizations, but it's totally
+wrong.
+
+The first reason it's wrong is because it's what I call an "additive" solution.
+The proposed solutions (forming a committee or appointing someone to address the
+problem) will either add to the headcount of your organization or they will add
+to the demands on people already at your organization.
+
+What's so bad about additive solutions? It has to do with being able to predict
+the downstream effects of the implemented solution. There is a fundamental
+difference between a solution that involves adding a new component to a system,
+versus a solution that takes away or modifies components that were already
+there. When you add a new component, it's very difficult to anticipate all the
+interactions that it will have with other components. In contrast, when you
+modify or remove existing components, it's much easier to anticipate the
+consequences by examining the role the component already plays in the system.
+
+Additive solutions are slow. Creating a new component for your system is almost
+certainly going to take more time than tweaking (or removing) something that's
+already there. When starting from scratch, the design space is huge. In
+constrast, when you're starting from an existing part, its attributes are mostly
+fixed and you can think about a few dimensions that might need modification. At
+the most extreme, you can decide to remove the component, which can be done
+incredibly quickly.
+
+Additive solutions are difficult to unwind. One a committee has been formed or a
+person given a new responsibility, it is very difficult to turn back the clock,
+even after the problem has been solved.
+
+What's the alternative to additive solutions? Solutions that either modify or
+remove existing components of the system. In my opinion, this is the most
+effective way to solve problems because the problems are usually the result of
+interactions of existing system components. Instead of adding downstream
+components to solve problems that were introduced previously, why not go
+upstream and prevent the problem from occurring in the first place?
+* Book Review: Poor Charlie's Almanac :review:book:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-09-30-book-review-poor-charlies-almanac
+:EXPORT_DATE: 2024-09-30
+:END:
+Poor Charlie's Almanac is a collection of talks and essays by Charles Munger,
+who together with Warren Buffett established Berkshire Hathaway as one of the
+greatest investment funds of all time. The talks cover topics from accounting
+practices to the role of psychology in business to general life advice for
+finding happiness.
+
+*Why you should read this book:* It's fun to read and has good life advice. This
+book exposes you to the mental models of a highly successful person. For me, the
+biggest takeaway was the framework of "mental models" itself! I knew about
+mental models, of course, but I had never thought specifically about the idea
+that a collection of mental models of how the world works might serve as a
+general-purpose system for problem-solving and understanding the world.
+
+*Why you should not read this book:* If you're looking for specific, quantitative,
+actionable investment advice, this is not the right book for you. I'm sure that
+Buffett and Munger have plenty of quantitative ways that they analyze their
+investments, but this is not that kind of book. This is a book that gives a
+window into the author's philosophy and worldview.
+* Learning by boundary seeking :learning:parenting:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-10-01-learning-by-boundary-seeking
+:EXPORT_DATE: 2024-10-01
+:END:
+
+In the last year since I became a parent, I've had the wonderful opportunity to
+observe how my daughter acquires new skills and learns about the world around
+her.
+
+"Boundary seeking" is how I think of her main strategy for learning efficiently.
+
+When she first encounters a new object, she pushes it to its limits. One day
+last month she found a tote bag and played with it for the better part of an
+hour. She dragged it around the room, she whipped it around her body as fast as
+she could, she put her toys into it, she stepped on it, and of course, she put
+it on her head, which she thought was hilarious. (Don't worry, the tote bag is made from a
+breathable mesh and she was totally supervised the whole time.)
+
+By sampling over a large distribution space, she was able to find the most
+interesting things that she could do with the tote bag. She got lots of
+information about the way that the tote bag behaves under a wide variety of
+conditions. As she discovered new, interesting behaviors (like putting the bag
+over her head) she spend more time exploring them.
+
+This is a very efficient way to learn. Essentially, you sample as big a space as
+you can, then focus on the areas of that space that are most interesting to you.
+My theory is that these "interesting" areas of the space represent boundaries on
+a manifold, where one behavior changes into another. (Think, for example, about
+how the bag might be good for carrying things when you carry it loosely, but
+when you swing it around your head it makes a /whooshing/ noise and it's more
+fun.) The most efficient way to explore a high-dimensional space is to move
+along boundaries, then use simple predictive heuristics to fill in the gaps
+between boundaries.

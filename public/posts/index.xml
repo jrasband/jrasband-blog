@@ -1,37 +1,171 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Welcome on Joshua Rasband&#39;s blog</title>
+    <title>Blog on Joshua Rasband&#39;s blog</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Welcome on Joshua Rasband&#39;s blog</description>
+    <description>Recent content in Blog on Joshua Rasband&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <managingEditor>contact@jrasband.com (Joshua Rasband)</managingEditor>
     <webMaster>contact@jrasband.com (Joshua Rasband)</webMaster>
     <copyright>Joshua Rasband (CC BY 4.0)</copyright>
-    <lastBuildDate>Sat, 12 Aug 2017 17:05:38 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My first post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Sat, 12 Aug 2017 17:05:38 -0400</pubDate><author>contact@jrasband.com (Joshua Rasband)</author>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;This is my post body.&#xA;\(\frac{1}{N}\sum^{n}_{i=1}\sigma_{i}^{2} = \sigma^2\)&lt;/p&gt;&#xA;&lt;p&gt;LaTeX formatted equation: \( E = -J \sum_{i=1}^N s_i s_{i+1 }\)&lt;/p&gt;&#xA;&lt;p&gt;\begin{equation}&#xA;\label{eq:1}&#xA;C = W\log_{2} (1+\mathrm{SNR})&#xA;\end{equation}&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;If $a^2=b$ and \( b=2 \), then the solution must be either&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;$$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \]&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If \(a^2=b\) and \( b=2 \), then the solution must be either&#xA;\[ a=+\sqrt{2} \] or \[ a=-\sqrt{2} \]&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<p>This is my post body.
-\(\frac{1}{N}\sum^{n}_{i=1}\sigma_{i}^{2} = \sigma^2\)</p>
-<p>LaTeX formatted equation: \( E = -J \sum_{i=1}^N s_i s_{i+1 }\)</p>
-<p>\begin{equation}
-\label{eq:1}
-C = W\log_{2} (1+\mathrm{SNR})
-\end{equation}</p>
-
-
-
-
-
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="ln">1</span><span class="cl">If $a^2=b$ and \( b=2 \), then the solution must be either
-</span></span><span class="line"><span class="ln">2</span><span class="cl">$$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \]</span></span></code></pre></div><p>If \(a^2=b\) and \( b=2 \), then the solution must be either
-\[ a=+\sqrt{2} \] or \[ a=-\sqrt{2} \]</p>
+      <title>Learning by boundary seeking</title>
+      <link>http://localhost:1313/posts/2024-10-01-learning-by-boundary-seeking/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><author>contact@jrasband.com (Joshua Rasband)</author>
+      <guid>http://localhost:1313/posts/2024-10-01-learning-by-boundary-seeking/</guid>
+      <description>&lt;p&gt;In the last year since I became a parent, I&amp;rsquo;ve had the wonderful opportunity to&#xA;observe how my daughter acquires new skills and learns about the world around&#xA;her.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Boundary seeking&amp;rdquo; is how I think of her main strategy for learning efficiently.&lt;/p&gt;&#xA;&lt;p&gt;When she first encounters a new object, she pushes it to its limits. One day&#xA;last month she found a tote bag and played with it for the better part of an&#xA;hour. She dragged it around the room, she whipped it around her body as fast as&#xA;she could, she put her toys into it, she stepped on it, and of course, she put&#xA;it on her head, which she thought was hilarious. (Don&amp;rsquo;t worry, the tote bag is made from a&#xA;breathable mesh and she was totally supervised the whole time.)&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In the last year since I became a parent, I&rsquo;ve had the wonderful opportunity to
+observe how my daughter acquires new skills and learns about the world around
+her.</p>
+<p>&ldquo;Boundary seeking&rdquo; is how I think of her main strategy for learning efficiently.</p>
+<p>When she first encounters a new object, she pushes it to its limits. One day
+last month she found a tote bag and played with it for the better part of an
+hour. She dragged it around the room, she whipped it around her body as fast as
+she could, she put her toys into it, she stepped on it, and of course, she put
+it on her head, which she thought was hilarious. (Don&rsquo;t worry, the tote bag is made from a
+breathable mesh and she was totally supervised the whole time.)</p>
+<p>By sampling over a large distribution space, she was able to find the most
+interesting things that she could do with the tote bag. She got lots of
+information about the way that the tote bag behaves under a wide variety of
+conditions. As she discovered new, interesting behaviors (like putting the bag
+over her head) she spend more time exploring them.</p>
+<p>This is a very efficient way to learn. Essentially, you sample as big a space as
+you can, then focus on the areas of that space that are most interesting to you.
+My theory is that these &ldquo;interesting&rdquo; areas of the space represent boundaries on
+a manifold, where one behavior changes into another. (Think, for example, about
+how the bag might be good for carrying things when you carry it loosely, but
+when you swing it around your head it makes a <em>whooshing</em> noise and it&rsquo;s more
+fun.) The most efficient way to explore a high-dimensional space is to move
+along boundaries, then use simple predictive heuristics to fill in the gaps
+between boundaries.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Book Review: Poor Charlie&#39;s Almanac</title>
+      <link>http://localhost:1313/posts/2024-09-30-book-review-poor-charlies-almanac/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 +0000</pubDate><author>contact@jrasband.com (Joshua Rasband)</author>
+      <guid>http://localhost:1313/posts/2024-09-30-book-review-poor-charlies-almanac/</guid>
+      <description>&lt;p&gt;Poor Charlie&amp;rsquo;s Almanac is a collection of talks and essays by Charles Munger,&#xA;who together with Warren Buffett established Berkshire Hathaway as one of the&#xA;greatest investment funds of all time. The talks cover topics from accounting&#xA;practices to the role of psychology in business to general life advice for&#xA;finding happiness.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Why you should read this book:&lt;/strong&gt; It&amp;rsquo;s fun to read and has good life advice. This&#xA;book exposes you to the mental models of a highly successful person. For me, the&#xA;biggest takeaway was the framework of &amp;ldquo;mental models&amp;rdquo; itself! I knew about&#xA;mental models, of course, but I had never thought specifically about the idea&#xA;that a collection of mental models of how the world works might serve as a&#xA;general-purpose system for problem-solving and understanding the world.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Poor Charlie&rsquo;s Almanac is a collection of talks and essays by Charles Munger,
+who together with Warren Buffett established Berkshire Hathaway as one of the
+greatest investment funds of all time. The talks cover topics from accounting
+practices to the role of psychology in business to general life advice for
+finding happiness.</p>
+<p><strong>Why you should read this book:</strong> It&rsquo;s fun to read and has good life advice. This
+book exposes you to the mental models of a highly successful person. For me, the
+biggest takeaway was the framework of &ldquo;mental models&rdquo; itself! I knew about
+mental models, of course, but I had never thought specifically about the idea
+that a collection of mental models of how the world works might serve as a
+general-purpose system for problem-solving and understanding the world.</p>
+<p><strong>Why you should not read this book:</strong> If you&rsquo;re looking for specific, quantitative,
+actionable investment advice, this is not the right book for you. I&rsquo;m sure that
+Buffett and Munger have plenty of quantitative ways that they analyze their
+investments, but this is not that kind of book. This is a book that gives a
+window into the author&rsquo;s philosophy and worldview.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Against additive solutions</title>
+      <link>http://localhost:1313/posts/2024-09-29-against-additive-solutions/</link>
+      <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate><author>contact@jrasband.com (Joshua Rasband)</author>
+      <guid>http://localhost:1313/posts/2024-09-29-against-additive-solutions/</guid>
+      <description>&lt;p&gt;I was recently in a meeting where, multiple times, the default response to a&#xA;problem was &amp;ldquo;we should form a committee to respond to the issue&amp;rdquo; or &amp;ldquo;someone&#xA;should be appointed to take care of this issue.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;I think this is a natural way to view problems and solutions. It&amp;rsquo;s a&#xA;human-centric view. In this view, problems get solved by people. When some&#xA;problem isn&amp;rsquo;t getting solved because it&amp;rsquo;s not in anyone&amp;rsquo;s job description to&#xA;solve the problem, the logical response is to either delegate authority and&#xA;responsibility for solving the problem to a person or a committee.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I was recently in a meeting where, multiple times, the default response to a
+problem was &ldquo;we should form a committee to respond to the issue&rdquo; or &ldquo;someone
+should be appointed to take care of this issue.&rdquo;</p>
+<p>I think this is a natural way to view problems and solutions. It&rsquo;s a
+human-centric view. In this view, problems get solved by people. When some
+problem isn&rsquo;t getting solved because it&rsquo;s not in anyone&rsquo;s job description to
+solve the problem, the logical response is to either delegate authority and
+responsibility for solving the problem to a person or a committee.</p>
+<p>It&rsquo;s a natural way to view problem-solving in organizations, but it&rsquo;s totally
+wrong.</p>
+<p>The first reason it&rsquo;s wrong is because it&rsquo;s what I call an &ldquo;additive&rdquo; solution.
+The proposed solutions (forming a committee or appointing someone to address the
+problem) will either add to the headcount of your organization or they will add
+to the demands on people already at your organization.</p>
+<p>What&rsquo;s so bad about additive solutions? It has to do with being able to predict
+the downstream effects of the implemented solution. There is a fundamental
+difference between a solution that involves adding a new component to a system,
+versus a solution that takes away or modifies components that were already
+there. When you add a new component, it&rsquo;s very difficult to anticipate all the
+interactions that it will have with other components. In contrast, when you
+modify or remove existing components, it&rsquo;s much easier to anticipate the
+consequences by examining the role the component already plays in the system.</p>
+<p>Additive solutions are slow. Creating a new component for your system is almost
+certainly going to take more time than tweaking (or removing) something that&rsquo;s
+already there. When starting from scratch, the design space is huge. In
+constrast, when you&rsquo;re starting from an existing part, its attributes are mostly
+fixed and you can think about a few dimensions that might need modification. At
+the most extreme, you can decide to remove the component, which can be done
+incredibly quickly.</p>
+<p>Additive solutions are difficult to unwind. One a committee has been formed or a
+person given a new responsibility, it is very difficult to turn back the clock,
+even after the problem has been solved.</p>
+<p>What&rsquo;s the alternative to additive solutions? Solutions that either modify or
+remove existing components of the system. In my opinion, this is the most
+effective way to solve problems because the problems are usually the result of
+interactions of existing system components. Instead of adding downstream
+components to solve problems that were introduced previously, why not go
+upstream and prevent the problem from occurring in the first place?</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Testing and worth</title>
+      <link>http://localhost:1313/posts/2024-09-28-testing-and-worth/</link>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate><author>contact@jrasband.com (Joshua Rasband)</author>
+      <guid>http://localhost:1313/posts/2024-09-28-testing-and-worth/</guid>
+      <description>&lt;p&gt;In standardized education the primary purpose of an exam is to measure how much&#xA;a student is &amp;ldquo;worth.&amp;rdquo; This is wrong. The primary purpose of an exam should be to&#xA;determine what the student knows.&lt;/p&gt;&#xA;&lt;p&gt;What is it that people do with exam grades? They use them to compare students&#xA;against each other, as a way to determine which students are &amp;ldquo;better&amp;rdquo; than other&#xA;students. A grade serves much the same function as a price in a marketplace&amp;mdash;it&#xA;abstracts away all of the details until you have a single number that you can&#xA;use to compare unlike things. Grades are one of the primary metrics for&#xA;determining whether a student will be admitted to a university, admitted to a&#xA;doctoral program, or offered an internship or job. The primary purpose of exam&#xA;grades is therefore to determine which students are &amp;ldquo;better&amp;rdquo; or &amp;ldquo;worse&amp;rdquo; than&#xA;others, because that is how people use grades.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>In standardized education the primary purpose of an exam is to measure how much
+a student is &ldquo;worth.&rdquo; This is wrong. The primary purpose of an exam should be to
+determine what the student knows.</p>
+<p>What is it that people do with exam grades? They use them to compare students
+against each other, as a way to determine which students are &ldquo;better&rdquo; than other
+students. A grade serves much the same function as a price in a marketplace&mdash;it
+abstracts away all of the details until you have a single number that you can
+use to compare unlike things. Grades are one of the primary metrics for
+determining whether a student will be admitted to a university, admitted to a
+doctoral program, or offered an internship or job. The primary purpose of exam
+grades is therefore to determine which students are &ldquo;better&rdquo; or &ldquo;worse&rdquo; than
+others, because that is how people use grades.</p>
+<p>I think it&rsquo;s wrong to abstract away all information about a student&rsquo;s knowledge
+until all that is left is a single, crude numeric measure. When a teacher (or a
+student) sees a grade, it is an extremely imprecise error signal.</p>
+<p>The purpose of teaching is learning, and learning is better served by a precise
+error signal, one which gives the student and the teacher feedback about what
+the student does know and what the student doesn&rsquo;t know. Exams and grading must
+be structured so that they are a measure of knowledge and knowledge gaps. Until
+then, exams will be a measure of &ldquo;worth,&rdquo; and students who do poorly on exams
+will view themselves as being unworthy or less valuable when they instead should
+view themselves as just not knowing something yet.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Time to write</title>
+      <link>http://localhost:1313/posts/2024-09-27-time-to-write/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate><author>contact@jrasband.com (Joshua Rasband)</author>
+      <guid>http://localhost:1313/posts/2024-09-27-time-to-write/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;If writing down your ideas always makes them more precise and more complete,&#xA;then no one who hasn&amp;rsquo;t written about a topic has fully formed ideas about it.&#xA;And someone who never writes has no fully formed ideas about anything&#xA;nontrivial.&lt;/p&gt;&#xA;&lt;p&gt;&amp;mdash;Paul Graham&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I think that the next phase of my self-education is writing. Here&amp;rsquo;s why:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Writing generates an error signal:&lt;/strong&gt; Writing externalizes your thought process,&#xA;which makes it easier to reflect on which of your thoughts need to improve.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<blockquote>
+<p>If writing down your ideas always makes them more precise and more complete,
+then no one who hasn&rsquo;t written about a topic has fully formed ideas about it.
+And someone who never writes has no fully formed ideas about anything
+nontrivial.</p>
+<p>&mdash;Paul Graham</p>
+</blockquote>
+<p>I think that the next phase of my self-education is writing. Here&rsquo;s why:</p>
+<p><strong>Writing generates an error signal:</strong> Writing externalizes your thought process,
+which makes it easier to reflect on which of your thoughts need to improve.</p>
+<p><strong>Writing is a form of retrieval practice:</strong> Retrieval practice is the best
+known technique for building and strengthening long-term memory.</p>
+<p>These two factors make writing a highly efficient learning technique.</p>
+<p>Because I&rsquo;ve previously had a hard time writing consistently, I&rsquo;m making a
+commitment: for the next month (until October 27th, 2024), I will write one blog
+post every day. They probably won&rsquo;t be very long (or very good), but I&rsquo;m going to
+write them.</p>
 ]]></content:encoded>
     </item>
   </channel>
