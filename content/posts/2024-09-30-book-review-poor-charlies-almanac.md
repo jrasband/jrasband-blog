@@ -1,8 +1,8 @@
 +++
-title = "Book Review: Poor Charlie's Almanac"
+title = "Book review: Poor Charlie's Almanac"
 author = ["Joshua Rasband"]
 date = 2024-09-30
-tags = ["review", "book"]
+tags = ["bookreview"]
 draft = false
 +++
 

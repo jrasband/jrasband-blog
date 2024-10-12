@@ -2,7 +2,7 @@
 title = "Against additive solutions"
 author = ["Joshua Rasband"]
 date = 2024-09-29
-tags = ["organizations"]
+tags = ["organization"]
 draft = false
 +++
 

@@ -3,21 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/parenting/</loc>
+    <lastmod>2024-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2024-10-02-reasons-being-a-parent-is-awesome/</loc>
+    <lastmod>2024-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/learning/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/2024-10-01-learning-by-boundary-seeking/</loc>
-    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/parenting/</loc>
-    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/book/</loc>

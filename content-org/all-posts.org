@@ -19,6 +19,9 @@
 :END:
 - MD/PhD student in the United States
 - Currently working on a neuroscience PhD
+- [[https://github.com/jrasband/][github]]
+- [[https://orcid.org/0000-0002-9548-7311][ORCID]]
+- [[https://x.com/JoshuaRasband][X (Twitter)]]
 * Time to write :writing:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2024-09-27-time-to-write
@@ -47,37 +50,8 @@ Because I've previously had a hard time writing consistently, I'm making a
 commitment: for the next month (until October 27th, 2024), I will write one blog
 post every day. They probably won't be very long (or very good), but I'm going to
 write them.
-* Testing and worth :education:testing:
-:PROPERTIES:
-:EXPORT_FILE_NAME: 2024-09-28-testing-and-worth
-:EXPORT_DATE: 2024-09-28
-:END:
-In standardized education the primary purpose of an exam is to measure how much
-a student is "worth." This is wrong. The primary purpose of an exam should be to
-determine what the student knows.
-
-What is it that people do with exam grades? They use them to compare students
-against each other, as a way to determine which students are "better" than other
-students. A grade serves much the same function as a price in a marketplace---it
-abstracts away all of the details until you have a single number that you can
-use to compare unlike things. Grades are one of the primary metrics for
-determining whether a student will be admitted to a university, admitted to a
-doctoral program, or offered an internship or job. The primary purpose of exam
-grades is therefore to determine which students are "better" or "worse" than
-others, because that is how people use grades.
-
-I think it's wrong to abstract away all information about a student's knowledge
-until all that is left is a single, crude numeric measure. When a teacher (or a
-student) sees a grade, it is an extremely imprecise error signal.
-
-The purpose of teaching is learning, and learning is better served by a precise
-error signal, one which gives the student and the teacher feedback about what
-the student does know and what the student doesn't know. Exams and grading must
-be structured so that they are a measure of knowledge and knowledge gaps. Until
-then, exams will be a measure of "worth," and students who do poorly on exams
-will view themselves as being unworthy or less valuable when they instead should
-view themselves as just not knowing something yet.
-* Against additive solutions :organizations:
+* Testing and worth :learning:
+* Against additive solutions :organization:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2024-09-29-against-additive-solutions
 :EXPORT_DATE: 2024-09-29
@@ -127,7 +101,7 @@ effective way to solve problems because the problems are usually the result of
 interactions of existing system components. Instead of adding downstream
 components to solve problems that were introduced previously, why not go
 upstream and prevent the problem from occurring in the first place?
-* Book Review: Poor Charlie's Almanac :review:book:
+* Book review: Poor Charlie's Almanac :bookreview:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2024-09-30-book-review-poor-charlies-almanac
 :EXPORT_DATE: 2024-09-30
@@ -184,3 +158,427 @@ when you swing it around your head it makes a /whooshing/ noise and it's more
 fun.) The most efficient way to explore a high-dimensional space is to move
 along boundaries, then use simple predictive heuristics to fill in the gaps
 between boundaries.
+* Reasons being a parent is awesome :parenting:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-10-02-reasons-being-a-parent-is-awesome
+:EXPORT_DATE: 2024-10-02
+:END:
+I want to share some of the reasons being a parent has been (somewhat
+unexpectedly) so good for me personally. I think these reasons will apply to
+almost every parent.
+
+Before I start, I want to make it clear my goal is /not/ to convince everyone to
+have kids, but rather to show that parenthood is awesome in a couple of ways
+that I don't think get talked about enough.
+
+** Being /your/ child's parent has limited (or no) competition
+Competition to be your child's best parent is extremely limited. Unlike your
+professional interests (and likely your hobbies), the odds are pretty good that
+the pool of people trying to parent /your child specifically/ is small. Sometimes,
+it might be a pool of one. I certainly feel that I'm only competing against
+myself---that my wife and I occupy different, non-competitive niches in our
+daughter's life. Within my niche, I am number one; undefeated! It doesn't matter
+to me that there isn't really anyone I'm competing against---it still gives me
+satisfaction to know that I am the best at what I do.
+
+Furthermore, whatever you do for your child is going to be a large fraction of
+their life experience. It doesn't matter very much if the things you do for them
+are imperfect---what matters more is that you try. Just trying can get you to
+the top of the leaderboard---but you have to try.
+
+** Being a parent is orthogonal to other interests
+How good of a parent you are can be completely uncorrelated with your
+professional success, your financial situation, or your hobbies. This
+decorrelation between parenting and the rest of your life makes it easier to
+still feel like a success, even if the only thing you're succeeding in is being
+a good parent to your child.
+** Being a parent is a great mix of instant and delayed gratification
+There are two kinds of work---work that has instantaneous rewards, and work that
+has delayed rewards. In my experience, optimal productivity and happiness in
+one's work requires a mix of both kinds of work.
+
+Working without any short-term feedback on how you're doing makes it difficult
+to improve. Also, a lack of short-term rewards in your work will make each day
+exhausting, because at the end of each day you can be left thinking "What did I
+do all that work today for?"
+
+On the other hand, work that only has short-term rewards will never build up to
+a lifetime of achievement that you can look back on with satisfaction. You might
+be happy on each individual day, but the overall narrative arc is missing.
+
+Parenting, in my opinion, has the perfect mix of short-term and long-term
+rewards. In the short-term, it is generally rewarding to spend any amount of
+time with your kids doing something they enjoy. In the long-term, the things you
+work to teach them (both knowledge and values) can gradually shape your child
+into a fully-fledged human that you are happy to associate with.
+* I fixed some chairs :life:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-10-03-i-fixed-some-chairs
+:EXPORT_DATE: 2024-10-03
+:END:
+Today I fixed some chairs and it was the most satisfying thing I did all day.
+
+My wife bought some used chairs yesterday, and she noticed after bringing them
+home that they were a little wobbly. This evening, I pulled out my tools and
+started tightening screws to see if I could fix the problem.
+
+In the process, I discovered that one of the chairs had been put together
+incorrectly, with two of the legs having been swapped. Because it
+was put together wrong, it was very wobbly and some of the pieces were jammed
+together at crooked angles.
+
+Being able to sit down with a set of tools, diagnose a problem, and make the
+world a better place in just half an hour is a wonderful thing to experience. It
+wasn't a big fix, but it greatly improves the experience of sitting in those
+chairs.
+
+I think everybody needs moments like this. Everyone needs to experience
+regularly the satisfaction of problem-solving on a short timescale. Most of the
+things I do on a daily basis do not give me immediate rewards, and that makes it
+important that I find things that do give me immediate satisfaction---running,
+cooking, and playing with my daughter are examples that come to mind.
+* The spiritual dimension of food :food:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-10-04-the-spiritual-dimension-of-food
+:EXPORT_DATE: 2024-10-04
+:END:
+I baked a loaf of sourdough bread for the first time this week, which taught me
+some lessons about how food affects my sense of identity. My lunch today was
+very simple: two slices of sourdough bread with a bit of jam. To me, this plain
+meal is at least twice as satisfying as a hamburger from any restaurant. I think
+it has to do with something I'm calling the "spiritual dimension" of food. One
+could also call it the "emotional" or "intangible" dimension of food, but I like
+the idea of a meal having a dual nature that feeds both our bodies and our
+spirits.
+
+The consumption of food provides us with the nutrients needed for life, but it's
+much more than that, like a job is more than just a source of income. Decisions
+about what we eat, how we eat, and with whom we eat are important components of
+the development of identity.
+
+The spiritual dimension of food is those components of food decisions that
+contribute to the nourishment of our spirits --- the intangible parts of who we
+are. These are our connections to other people, connections to our environment,
+and our knowledge, preferences, and abilities.
+
+For me, the decision to make and eat sourdough was partially motivated by a
+desire to be more involved in the food that I eat. By cooking for myself, I take
+more responsibility for my nutrition. I am responsible for selecting and
+preparing the ingredients. I reduce external dependencies on the (flavor and
+price) preferences of other people. Simultaneously, I increase my ability to
+provide for other people --- now that I know how to make sourdough bread, I can
+(and did) share it with other people. Being more involved in the details of my
+life gives me power to modify my life in the ways that I choose.
+* Learning vs. task completion :learning:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-10-04-learning-vs-task-completion
+:EXPORT_DATE: 2024-10-04
+:END:
+Optimize studying for learning, not task completion.
+
+Rote completion of a task is best done by specialization and division of labor.
+The classical example of division of labor is [[https://en.wikipedia.org/wiki/Division_of_labour#Adam_Smith][the making of pins]] --- by dividing
+the making of a pin into many simple tasks and assigning a worker to each task,
+pins can be made more efficiently than if every worker were to go through all
+the steps of making a pin.
+
+In the quest for greater efficiency in my studies, I have fallen into the trap
+of specialization of labor. If I've already watched two or three lectures, I'm
+in a lecture-watching and note-taking frame of mind. If I'm studying with
+flashcards, it's easy for me to continue studying with flashcards. When I'm "in
+the zone," the least effortful study task is to continue doing what I'm already
+doing. This feels more efficient because I'm rapidly checking more things off my
+to-do list, but it's not the most effective way for me to /learn./
+
+Learning is not the same as checking tasks off a to-do list. Watching four
+lectures instead of one in a single sitting doesn't mean that I've learned four
+times as much. On the contrary, I might experience information overload by
+trying to absorb too much information in one sitting.
+
+Learning needs to happen incrementally because new information and memories
+decay quickly. Self-testing and reflection shortly after the first exposure help
+consolidate ideas for long-term storage. Although task-switching while learning
+is less efficient in terms of time used studying in a given day, information
+will be better retained.
+
+Learning is the cultivation of an interconnected garden of information and ideas
+that live in your brain. Plants don't grow, die, or bear fruit all at once.
+Neither do ideas. Effective study requires doing the right study tasks at the
+right time, not just as quickly as possible.
+* Non-overlapping sources of social support
+:PROPERTIES:
+:EXPORT_DATE: 2024-10-04
+:EXPORT_FILE_NAME: 2024-10-04-non-overlapping-sources-of-social-support
+:END:
+A friend of mine once advised some first-year medical students to develop
+/non-overlapping/ sources of social support.
+
+His line of thinking went like this: if your only source of friends is your
+peers at school or work, you will be dependent on your work for your social
+life. Any disruption to your work would affect your social life, and /vice versa/.
+
+Additionally, socializing with co-workers often constrains conversation to
+work-related topics. This is because people naturally default to the things they
+have in common, which are the things that are easiest to talk about.
+
+If you're looking for ways to diversify your sources of social support, there
+are many different kinds of non-work social groups related to your interests or
+passions, such as a cultural affinity group, a political organization, a
+volunteer organization, a sports or games group, or a spiritual community.
+
+Developing non-overlapping sources of social support makes your social life
+robust to shocks and helps you develop more depth as a person.
+* Sabbaths and anti-sabbaths :productivity:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-10-06-sabbaths-and-anti-sabbaths
+:EXPORT_DATE: 2024-10-06
+:END:
+/How a day dedicated to the profane improves my well-being/
+
+My [[https://alexanderell.is/posts/infinite-scroll/][lizard brain]] was losing the battle against the internet.
+
+I kept finding interesting things that I just /had/ to read. I knew from past
+experience that it was unreasonable to attempt quitting reading things on the
+internet altogether. I might "get clean" for a few days or a few weeks, but
+invariably there would be /something/ I felt was worthy reading material and I'd
+be back to my old ways. I felt like the optimal amount of time spent reading
+news and blog posts was non-zero, but it also wasn't multiple hours per day.
+
+Eventually I solved my problem by borrowing and inverting an ancient practice:
+the Sabbath. In some faiths, the core idea of the Sabbath is that it's a holy
+day of rest occurring one day per week, a day not to be profaned by certain
+activities such as work, commerce, or recreational pursuits.
+
+However, instead of refraining one day per week from the "unholy" activities of
+reading news and blog posts, I flipped it around: one day per week would be set
+aside for these "unholy" activities, and one day only. I call this day my
+"anti-Sabbath." I chose mine to be on Friday.
+
+The anti-Sabbath has multiple advantages. First, it's a stronger argument, even
+if it's less rational. Why can't I read Scott Alexander's [[https://astralcodexten.substack.com/p/every-bay-area-house-party][latest]] [[https://astralcodexten.substack.com/p/another-bay-area-house-party][installment]] [[https://astralcodexten.substack.com/p/even-more-bay-area-house-party][of]]
+"Bay Area House Party"? Because it's not Friday yet. My old argument against
+reading blog posts was mostly an appeal to productivity, which is a much weaker
+argument. I could always rationalize that I'd really be more productive after a
+little break, or that it will be a really fast break and then I'll get back to
+work. In contrast, I can't argue very much about which day of the week it is.
+
+Second, the anti-Sabbath helps me be more efficient with my reading. Instead of
+spreading my internet browsing out over the course of a week, I have to pack it
+into a single day, in addition to all of the other things I already have to do
+that day. By the time I get around to reading all the new links in my RSS reader
+or checking the top page of HackerNews, I'm short on time and I can't afford to
+read things that are only slighly interesting to me. I discard links I'm not
+very interested in, which ends up being about half of what shows up in my RSS
+reader. If I start reading something and discover that it's not very good, I'll
+stop reading it. Having limited time in which to enjoy the week's news and other
+reading helps me use that time effectively.
+
+Third, the anti-Sabbath turns what was once an escape into a chore. Compressing
+all of my reading into one evening makes it a far less enjoyable experience than
+if I were to spread it out over the course of a week. Making my distraction
+reading an unpleasant experience makes it much, much easier to resist on every
+other day of the week. This has been great for breaking my habit of compulsively
+checking newsfeeds such as HackerNews.
+
+Finally, anti-Sabbaths help alleviate the fear of missing out that I would get
+from trying to quit altogether. When I'm worried that I could be missing
+important events, I can remind myself that really important things will still be
+headlines by the end of the week, and the things that don't matter by the end of
+the week aren't worth reading at all.
+* Book Review: Zen and the Art of Motorcycle Maintenance :bookreview:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-10-07-book-review-zen-and-the-art-of-motorcycle-maintenance
+:EXPORT_DATE: 2024-10-07
+:END:
+/Zen and the Art of Motorcycle Maintenance/ can be thought of as an answer to a
+simple question: what is Good?
+
+The answer is something called "Quality."
+
+Quality is a kind of you-know-it-when-you-see-it sort of Goodness that comes
+from authentic ways of working, creating, and being. It's the thing that makes
+me savor [[https:jrasband.com/posts/2024-10-04-the-spiritual-dimension-of-food][a homemade PB&J]] just as much as a restaurant cheeseburger. It's the
+secret sauce, the mojo, the oomph.
+
+/Zen and the Art of Motorcycle Maintenance/ is a book for our time. Everywhere I
+look I see a dearth of quality. Technological advances have made it so that
+every human activity demands less and less of us, so we give less of ourselves
+and get less in return.
+
+This was not a satisfying book to read. Its /dramatis personae/ are in pain. It
+asks more questions than it answers. However, it was certainly worth my time.
+
+* Lean into it :life:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-10-08-lean-into-it
+:EXPORT_DATE: 2024-10-08
+:END:
+In the absence of strong preferences, default to specialization in the ways that
+are most accessible to you.
+
+This is a good heuristic because it leverages the random details of your
+circumstances into the possibility of a significant comparative advantage.
+
+I think the world needs more people who are willing to "lean into" the quirks of
+their individual circumstances. Diversity and specialization are engines of
+scientific progress, economic growth, and artistic expression.
+
+By "leaning into it" you attempt to take advantage of your unique position,
+whatever it is.
+
+* Improved org-capture on MacOS :emacs:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-10-09-improved-org-capture-on-macos
+:EXPORT_DATE: 2024-10-09
+:END:
+I read [[https://macowners.club/posts/org-capture-from-everywhere-macos/][this post]] and it got me excited about using =emacsclient= to capture from
+anywhere on MacOS. I was particular about getting the capture frame to show only
+capture-related buffers, so I needed to make some modifications to the original
+code based on comments on [[https://emacs.stackexchange.com/questions/46460/org-capture-frame-with-no-splits][this stackoverflow question]].
+
+Here's my solution:
+#+begin_example elisp
+  (defun my/make-org-capture-frame ()
+    "Create a new frame and run `org-capture'."
+    (interactive)
+    (make-frame '((name . "capture")
+                  (top . 300)
+                  (left . 700)
+                  (width . 80)
+                  (height . 25)))
+    (select-frame-by-name "capture")
+    (delete-other-windows)
+    (cl-letf (((symbol-function 'switch-to-buffer-other-window) #'switch-to-buffer) ((symbol-function 'org-display-buffer-split) #'org-display-buffer-full-frame)) (org-capture)))
+
+  (defun my/org-capture-delete-frame (orig-fun &rest args)
+    (if (equal "capture" (frame-parameter nil 'name))
+        (delete-frame))
+    (apply orig-fun args))
+
+  (advice-add 'user-error :around #'my/org-capture-delete-frame)
+  (advice-add 'org-capture-finalize :around #'my/org-capture-delete-frame)
+#+end_example
+
+Now you can call =emacsclient -nw --eval "(my/make-org-capture-frame)"= and it
+will open a capture buffer in a new frame.
+
+* An overview of my Emacs journey :emacs:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-10-10-an-overview-of-my-emacs-journey
+:EXPORT_DATE: 2024-10-10
+:END:
+I'll probably write more about the ways that Emacs (and Org mode) has improved
+my life, but here's a brief summary.
+
+I started using Emacs during college after getting introduced to Org mode by my
+research mentor. I'd just gotten burned by two of my preferred software tools
+getting shut down---one was a text editor, and the other was a productivity
+manager, so I was about as receptive as one could be to the idea of open-source
+text editors and productivity managers.
+
+Over the next few years, Emacs became an integral part of my writing,
+note-taking, and programming workflows. Part of what I enjoyed about Emacs was
+how it challenged me to learn more and to become more. Emacs didn't hold my
+hand---it demanded that I learn how to program.
+
+Another key component was the community. Without the abundance of blogs and
+forums and YouTube tutorials guiding me at each step of my Emacs path, I
+probably would have given up early on. The thing that I loved the most about the
+Emacs (and computer science community in general) is that they seemed to be the
+kind of people I wanted to be around. They were curious, hard-working, and
+clever. They had interesting ideas and interesting taste.
+
+Now, I'm a committed Emacs user. It's not for everyone, but I love how it's
+helped me grow, I love the ideas and communities it's helped me discover, and I
+love the sense of ownership and independence that open source brings me.
+
+* High-yield ways to increase happiness :life:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-10-11-high-yield-ways-to-increase-happiness
+:EXPORT_DATE: 2024-10-11
+:END:
+The advertising industry usually tries to tell you that if you buy their
+product or service, you will be happy.
+
+The problem with this approach to buying happiness is that the increase in
+happiness that you get from buying something will usually attenuate after a
+short period of time.
+
+Fortunately, there are more effective, longer-lasting ways to increase
+happiness. They just aren't being marketed to you because there's no money in
+them.
+
+** Decrease annoyances
+My favorite way to improve life happiness in the long-term is to fix things that
+bother me. If you're bothered about twice a week by your gate being stuck when
+you want to take out the trash (as I was), it's kind of a no-brainer to take an
+hour to diagnose and fix the problem.
+
+This principle can be applied to a wide variety of annoyances. Traffic during a
+morning commute. Having to make yourself breakfast every morning. An
+inconvenient location for a tool that gets used regularly.
+
+There are probably dozens of inconveniences and frustrations that you deal with
+every day, and it's probably worth more than you think to eliminate those daily
+annoyances. As you spend less and less of your day being annoyed, you'll be
+happier and more productive. Your interpersonal relationships might also
+improve, as you'll have more emotional bandwidth for dealing with interpersonal
+frictions.
+
+** Build in recurring pleasures that don't saturate
+Try to find things that you know you can get excited about every day. For me, I
+will always get excited about a good meal when I'm hungry, so I try to make sure
+that my meals can be a regular source of happiness in my day. I do that by
+choosing high-quality ingredients and making meals that will make me happy, not
+just fill my stomach.
+
+Whatever it is that can make you happy (and not just entertained) every single
+time, try to build it into your daily routine. Have a few, regularly-occurring
+bright spots you can look forward to each day. It will increase your average
+daily happiness in the long run.
+
+** Think in happier ways
+Happiness is a mental and emotional state. One of the most significant, but
+difficult things you can do for your happiness is to try to cultivate mental and
+emotional habits that facilitate happiness.
+
+This is a complicated topic. It touches on mental illness and the limits of our
+ability to control our own thoughts. For now, I think it suffices to say that
+it's often possible to change the way that you think in a way that improves your
+happiness. There are many frameworks for doing so.
+
+* Why I make my own flashcards :learning:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-10-12-why-i-make-my-own-flashcards
+:EXPORT_DATE: 2024-10-12
+:END:
+During medical school, I started using the Anki spaced repetition system to put
+large amounts of knowledge into my long-term memory. At first, I used decks made
+by other students. Eventually, I found that I preferred creating my own
+flashcards over using decks of pre-made flashcards.
+
+** Focus
+Making my own flashcards is a significant use of time and effort. At first
+blush, that sounds like it's a disadvantage, but it can also be framed as a
+benefit. Because there is a non-zero cost to making my flashcards, it
+incentivizes me to make the minimum number of flashcards necessary and no more.
+I found that before I started making my own cards, I was tempted to download
+more decks than I reasonably had time to study. The cost incurred by making my
+own cards helps me foucs my energies on just the facts that I want to remember.
+
+** Ownership
+Because I make my own flashcards, I have a deeper sense of accountability for my
+study. When I see a "bad" flashcard (e.g. one that is poorly worded or
+ambiguous) I know that it's my fault and I need to fix it. When using a deck
+made by someone else, it's easier to ignore the card and keep studying without
+improving anything. The knowledge that my flashcards are fully my responsibility
+helps me keep iterating and making better and better cards.
+
+** Schema construction
+The process of making flashcards helps me construct a schema into which I can
+place facts. When I make flashcards, I have to ask myself what the most
+important things to know are. As I organize my notes, it encourages me to think
+about the relationships between concepts---how they are similar, how they are
+different. By making flashcards, I give myself time to think about the facts I'm
+studying and how they are related---something I wouldn't be forced to do if I
+were to rely soley on decks made by other people.
