@@ -1,7 +1,7 @@
 # Basic config
 baseURL = 'https://jrasband.com/'
 languageCode = 'en-us'
-title = "Joshua Rasband's Blog"
+title = "Joshua Rasband's Website"
 copyright = "Joshua Rasband (CC BY 4.0)"
 theme = 'hugo-bearcub'
 
@@ -27,7 +27,7 @@ enableRobotsTXT = true
 # see https://gohugo.io/content-management/multilingual/
 [languages]
   [languages.en]
-    title = "Joshua Rasband's blog"
+    title = "Joshua Rasband's website"
     languageName = "en-US 🇺🇸"
     LanguageCode = "en-US"
     contentDir = "content"

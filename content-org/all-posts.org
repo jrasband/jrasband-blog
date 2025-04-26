@@ -6,6 +6,15 @@
 :EXPORT_HUGO_MENU: :menu main
 :EXPORT_HUGO_SECTION: /
 :END:
+* Research
+:PROPERTIES:
+:EXPORT_FILE_NAME: research
+:EXPORT_HUGO_MENU: :menu main
+:EXPORT_HUGO_SECTION: /
+:END:
+
+My current project is exploring a model of distraction in a cerebellum-dependent
+learned behavior.
 * Blog
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index
@@ -582,3 +591,236 @@ about the relationships between concepts---how they are similar, how they are
 different. By making flashcards, I give myself time to think about the facts I'm
 studying and how they are related---something I wouldn't be forced to do if I
 were to rely soley on decks made by other people.
+
+* Find joys that satiate you :life:
+:PROPERTIES:
+:EXPORT_DATE: 2024-10-14
+:EXPORT_FILE_NAME: 2024-10-14-find-joys-that-satiate-you
+:END:
+Some activities are 'satiating'---when you're done, you don't have an increased
+desire to do or consume more. Think about a meal that leaves your hunger totally
+satisfied. That kind of a pleasure is the kind of pleasure that we ought to be
+spending most of our time on, in contrast to things that, like potato chips, never
+satisfy the desire they were supposed to address in the first place.
+
+Many modern forms of entertainment, such as social media and streaming
+television, don't satiate. As a result, people spend much more time consuming
+than they intend to. To continue the analogy, they wanted to satisfy their
+hunger, but instead of eating a meal, they opened up a bag of potato chips.
+
+Look at your day and think about the things that you spend time doing. Why do
+you do those things? What needs are you trying to fufill? Are those needs being
+satiated? As you consciously meet your needs, you will be satiated.
+
+
+* Values vs. tastes :life:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-10-15-values-vs-tastes
+:EXPORT_DATE: 2024-10-15
+:END:
+After I got married, I learned an important lesson: there is a big difference
+between differences in taste and differences in values. Differences in taste are
+easy to live with and usually easy to compromise on. Differences in values are
+basically impossible to come to a satisfactory compromise on. The way you like
+your scrambled eggs is a taste. Whether you think it's morally justified to be
+eating eggs at all is a value.
+
+What's the difference between a taste and a value? I think a taste is basically
+a personal preference which you recognize is not intrinsically superior to other
+preferences. In contrast, a value is something that you believe in because you
+view it as being better or more true than other, competing values. Values are
+not viewed as a matter of preference, which makes them more difficult to
+compromise on.
+
+Although it's much more difficult to find compromise when there's a difference
+of values, a values-centered discussion can be very meaningful and productive.
+It's very much possible to have one set of values, yet respect deeply another
+person's commitment to a different set of values. Values are also typically not
+a choice between right and wrong, but a choice between many good options, one of
+which is deemed most important. When you understand someone at the level of
+their values, you gain far more insight into their reasoning than if you were to
+understand them at a more superficial level.
+
+* Deliberate practice of self-mastery :productivity:life:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-10-17-deliberate-practice-of-self-mastery
+:EXPORT_DATE: 2024-10-17
+:END:
+The single most important factor for success is having self-mastery.
+
+Self-mastery is difficult to teach, but it can be cultivated. The key is to
+developing self-mastery is proper stewardship of the reward circuits of your
+brain. You need to make sure that your brain sends reward signal in ways that
+will direct you to achieve your goals.
+
+The main way that I have accomplished this is through deliberate practice. Every
+time I want some kind of reward or break, I push myself to work just a little
+longer before I reward myself. Then, when I accomplish my goal, the sense of
+reward is associated with self-mastery, rather than giving in, thereby
+reinforcing a sense of pleasure at delayed gratification.
+
+I'm now at a point where a lot of the pleasure in my day comes from the
+knowledge that I have successfully achieved my goals. On nights when I force
+myself to do the dishes and finish my homework before I let myself have dessert,
+it's the sense of accomplishment that is the bigger reward.
+
+This is a difficult pattern of thought to cultivate. It's taken me almost a
+decade to get here. The rewards are enormous, however. The ability to say no to
+basically any distraction or temptation in favor of accomplishing my goals has
+been of critical importance as I try to balance my many responsibilities and
+goals.
+
+As a final note, self-mastery does not have to mean that every waking moment is
+spent working or studying. It just means that your decisions are more fully
+yours. I have found that self-mastery has actually increased my enjoyment of
+leisure activities, because I can engage in them with the knowledge that I have
+picked leisure because it is what I want to do, not because it is easy.
+
+* Introductory CS education misses the useful stuff
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-10-18-introductory-cs-education-misses-the-useful-stuff
+:EXPORT_DATE: 2024-10-18
+:END:
+The most important things I've learned about how to use a computer were things
+that I've had to teach myself.
+
+My formal CS education consists of an AP class in high school, an
+introductory-level CS class in college, and three computational physics labs. In
+none of those classes did I learn about shell scripting, version control, or
+package management.
+
+Together, these three skills have opened up worlds of
+productivity and possibility for me. They gave me the ability to write quick
+scripts to move and rename files /en masse/, improved how I fix bugs and implement
+features, and gave me access to a huge ecosystem of publicly available tools.
+
+I think it's likely that this observation applies to formal education generally.
+Rather than starting with the most useful things, formal education usually
+starts with some theoretical fundamentals which are supposed to build up to
+something useful (think "the mitochondria is the powerhouse of the cell"). Maybe
+we need to consider inverting that structure, so that students first learn how
+to do useful things, and then they can learn the foundational knowledge they'll
+need as they want to improve their skills.
+
+* Better is better than more :productivity:
+:PROPERTIES:
+:EXPORT_FILE_NAME: 2024-10-23-better-is-better-than-more
+:EXPORT_DATE: 2024-10-23
+:END:
+Most of the time, when I say "I should be doing more" what I /should/ be saying is
+"I should be doing things differently."
+
+It's often assumed that we could always be doing /more/. Exercising more, sleeping
+more, working more, reading more\dots more, more, more. I'm not convinced that's
+true.
+
+There are 24 hours in a day, and we spend each minute of the day doing
+/something/. We're never going to be able to fit more than 24 hours of time into a
+day. The task left to us is to determine /how/ we're going to use the time we
+have.
+
+Why is this distinction important? Psychologically, it can be daunting to think
+about adding things to our to-do list without taking anything away. I've found
+it's helpful to think about how I should be doing things better rather than how
+I should be doing more.
+
+My success rate for behavioral modification improves when I'm able to identify
+how existing components of my daily life will be modified or replaced by
+something better. Instead of planning to complete a task at a vague
+"sometime," I can identify a specific time of day at which I will change my
+behavior from what was previously planned. This dramatically increases my
+chances of success.
+
+This principle also applies in large organizations and bureaucracies. Better is
+superior to more.
+
+
+* TODO How to love what you do :life:
+<Appreciation of the Good> can help foster love for any worthwhile
+endeavor.
+
+It's been said that you should [[https://paulgraham.com/when.html][do what you love]]. One way to do what you love is
+to [[https://www.justinmath.com/love-what-you-do/][love what you do]]. But how exactly does one love what they do, especially if
+they aren't in love with it right now?
+
+I don't totally agree with the idea (in the previous link) that love is
+"perpetual hardcore effort." I definitely think that the fullest expression of
+love necessarily involves "perpetual hardcore effort," but I don't think that
+it's a sufficient condition. One can put a lot of effort into something, but
+that doesn't make it love. Indeed, there are lots of people around the world who
+put lots of effort (out of financial necessity, perhaps) into their careers
+without being in love with their job. So, besides effort, what does one need to
+do to love their job?
+
+
+* TODO Emigration and illiberalization of the developing world
+Emigration from developing countries to Western countries may be partially to
+blame for the stagnation of liberal democratic reform in the developing world.
+
+As a rule, developed, Western countries (e.g. the United States, Western Europe,
+and the Anglophone countries) are pretty tolerant of deviance from traditional
+norms. These are countries with strong protections for individual expression
+along many dimensions---speech, religious and political belief, and sexuality to
+name a few.
+
+As a rule, developing countries tend to be less tolerant of deviation from
+traditional norms.
+
+This creates strong incentives for the most liberal, Westernized (and often the
+most educated and wealthiest) citizens of developing countries to move to places
+that will be more tolerant of them.
+
+The result is like Maxwell's demon, but for geopolitics. The potential leaders
+and catalysts for democratic reform leave, and no progress is made.
+
+* TODO Sunday Corner
+** "Call the sabbath a delight"
+#+begin_quote
+If thou turn away thy foot from the sabbath, from doing thy pleasure on my holy
+day; and call the sabbath a delight\dots Then shalt thou delight thyself in the Lord; and I
+will cause thee to ride upon the high places of the earth\dots
+---Isaiah 58:13
+#+end_quote
+
+I never expected to have such strong opinions about the observance of a day of
+rest. As a child, it was just something that my family did, and I went along
+with them. During my adult years, however, the deliberate observance of a weekly
+sabbath has been wonderful for my mental health and my family relationships.
+
+The sabbath is a day that is set aside to be different from the other days of
+the week. It is different because it is supposed to be filled with activities
+that are higher and holier than what takes up most of our time the other days of
+the week. To encourage holier actions on the sabbath, certain "profane"
+activities may be discouraged, restricted, or forbidden during the twenty-four
+hour period of the sabbath.
+
+There are many ways one can choose to make the sabbath a special day, a day set
+apart from all the others. Here are some of the ways that I observe the sabbath:
+- Family: the sabbath is a day on which I block out time specifically for
+  strengthening my family relationships
+- Service: on the sabbath, I try to take every possible opportunity to serve others
+- Refrain from work: this is subjective, but I don't do professional work,
+  schoolwork, or non-daily chores (washing dishes is ok, mowing the lawn is not)
+- Refrain from entertainment: if I consume books, music, or other media on the
+  sabbath, I hold it to a much higher standard
+
+Observing the sabbath has been wonderful for my mental health and my family
+relationships. It is an immense comfort to me to know that however hard my
+professional life is going during the week, I will have at least one day each
+week on which I will set aside my worldly cares and anxieties. On the sabbath, I
+might be working just as hard as other days of the week, but my focus is
+different---my focus will be on my family, or on the people whom I'm trying to
+serve.
+
+The key to the sabbath lies in submission---the temporal, worldly, or immediate
+must submit to the spiritual, to the eternal. A few years ago, I realized that
+my personal sabbath observance would be much improved by making sure that I wasn't
+reading science fiction or fantasy novels on the sabbath. This change was very
+difficult for me, because I love books, but it made a huge difference because it
+changed the sabbath from a day of mere entertainment and relaxation to a day of
+rest and renewal.
+
+To discover the benefits of keeping a sabbath, one must try it, and try it
+consistently. It may be difficult to adjust to at first, but I promise that you
+will see some of the same benefits that I have seen.
+
