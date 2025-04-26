@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-04-26 Sat 15:21 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="Joshua Rasband" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="css/stylesheet.css" type="text/css"/>
+</head>
+<body>
+<div id="content" class="content">
+<div id="outline-container-orgacf43a1" class="outline-2">
+<h2 id="orgacf43a1">Home</h2>
+<div class="outline-text-2" id="text-orgacf43a1">
+</div>
+</div>
+<div id="outline-container-org7a4b03e" class="outline-2">
+<h2 id="org7a4b03e">Research</h2>
+<div class="outline-text-2" id="text-org7a4b03e">
+<p>
+My current project is exploring a model of distraction in a cerebellum-dependent
+learned behavior.
+</p>
+</div>
+</div>
+<div id="outline-container-org2c1a884" class="outline-2">
+<h2 id="org2c1a884">Blog</h2>
+<div class="outline-text-2" id="text-org2c1a884">
+</div>
+</div>
+<div id="outline-container-orgefe9e9a" class="outline-2">
+<h2 id="orgefe9e9a">About</h2>
+<div class="outline-text-2" id="text-orgefe9e9a">
+<ul class="org-ul">
+<li>MD/PhD student in the United States</li>
+<li>Currently working on a neuroscience PhD</li>
+<li><a href="https://github.com/jrasband/">github</a></li>
+<li><a href="https://orcid.org/0000-0002-9548-7311">ORCID</a></li>
+<li><a href="https://x.com/JoshuaRasband">X (Twitter)</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgeef4e15" class="outline-2">
+<h2 id="orgeef4e15">Time to write&#xa0;&#xa0;&#xa0;<span class="tag"><span class="writing">writing</span></span></h2>
+<div class="outline-text-2" id="text-orgeef4e15">
+<blockquote>
+<p>
+If writing down your ideas always makes them more precise and more complete,
+then no one who hasn&rsquo;t written about a topic has fully formed ideas about it.
+And someone who never writes has no fully formed ideas about anything
+nontrivial.
+</p>
+
+<p>
+&#x2014;Paul Graham
+</p>
+</blockquote>
+
+<p>
+I think that the next phase of my self-education is writing. Here&rsquo;s why:
+</p>
+
+<p>
+<b>Writing generates an error signal:</b> Writing externalizes your thought process,
+which makes it easier to reflect on which of your thoughts need to improve.
+</p>
+
+<p>
+<b>Writing is a form of retrieval practice:</b> Retrieval practice is the best
+known technique for building and strengthening long-term memory.
+</p>
+
+<p>
+These two factors make writing a highly efficient learning technique.
+</p>
+
+<p>
+Because I&rsquo;ve previously had a hard time writing consistently, I&rsquo;m making a
+commitment: for the next month (until October 27th, 2024), I will write one blog
+post every day. They probably won&rsquo;t be very long (or very good), but I&rsquo;m going to
+write them.
+</p>
+</div>
+</div>
+<div id="outline-container-org807d591" class="outline-2">
+<h2 id="org807d591">Testing and worth&#xa0;&#xa0;&#xa0;<span class="tag"><span class="learning">learning</span></span></h2>
+</div>
+<div id="outline-container-org0715a77" class="outline-2">
+<h2 id="org0715a77">Against additive solutions&#xa0;&#xa0;&#xa0;<span class="tag"><span class="organization">organization</span></span></h2>
+<div class="outline-text-2" id="text-org0715a77">
+<p>
+I was recently in a meeting where, multiple times, the default response to a
+problem was &ldquo;we should form a committee to respond to the issue&rdquo; or &ldquo;someone
+should be appointed to take care of this issue.&rdquo;
+</p>
+
+<p>
+I think this is a natural way to view problems and solutions. It&rsquo;s a
+human-centric view. In this view, problems get solved by people. When some
+problem isn&rsquo;t getting solved because it&rsquo;s not in anyone&rsquo;s job description to
+solve the problem, the logical response is to either delegate authority and
+responsibility for solving the problem to a person or a committee.
+</p>
+
+<p>
+It&rsquo;s a natural way to view problem-solving in organizations, but it&rsquo;s totally
+wrong.
+</p>
+
+<p>
+The first reason it&rsquo;s wrong is because it&rsquo;s what I call an &ldquo;additive&rdquo; solution.
+The proposed solutions (forming a committee or appointing someone to address the
+problem) will either add to the headcount of your organization or they will add
+to the demands on people already at your organization.
+</p>
+
+<p>
+What&rsquo;s so bad about additive solutions? It has to do with being able to predict
+the downstream effects of the implemented solution. There is a fundamental
+difference between a solution that involves adding a new component to a system,
+versus a solution that takes away or modifies components that were already
+there. When you add a new component, it&rsquo;s very difficult to anticipate all the
+interactions that it will have with other components. In contrast, when you
+modify or remove existing components, it&rsquo;s much easier to anticipate the
+consequences by examining the role the component already plays in the system.
+</p>
+
+<p>
+Additive solutions are slow. Creating a new component for your system is almost
+certainly going to take more time than tweaking (or removing) something that&rsquo;s
+already there. When starting from scratch, the design space is huge. In
+constrast, when you&rsquo;re starting from an existing part, its attributes are mostly
+fixed and you can think about a few dimensions that might need modification. At
+the most extreme, you can decide to remove the component, which can be done
+incredibly quickly.
+</p>
+
+<p>
+Additive solutions are difficult to unwind. One a committee has been formed or a
+person given a new responsibility, it is very difficult to turn back the clock,
+even after the problem has been solved.
+</p>
+
+<p>
+What&rsquo;s the alternative to additive solutions? Solutions that either modify or
+remove existing components of the system. In my opinion, this is the most
+effective way to solve problems because the problems are usually the result of
+interactions of existing system components. Instead of adding downstream
+components to solve problems that were introduced previously, why not go
+upstream and prevent the problem from occurring in the first place?
+</p>
+</div>
+</div>
+<div id="outline-container-org8376978" class="outline-2">
+<h2 id="org8376978">Book review: Poor Charlie&rsquo;s Almanac&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookreview">bookreview</span></span></h2>
+<div class="outline-text-2" id="text-org8376978">
+<p>
+Poor Charlie&rsquo;s Almanac is a collection of talks and essays by Charles Munger,
+who together with Warren Buffett established Berkshire Hathaway as one of the
+greatest investment funds of all time. The talks cover topics from accounting
+practices to the role of psychology in business to general life advice for
+finding happiness.
+</p>
+
+<p>
+<b>Why you should read this book:</b> It&rsquo;s fun to read and has good life advice. This
+book exposes you to the mental models of a highly successful person. For me, the
+biggest takeaway was the framework of &ldquo;mental models&rdquo; itself! I knew about
+mental models, of course, but I had never thought specifically about the idea
+that a collection of mental models of how the world works might serve as a
+general-purpose system for problem-solving and understanding the world.
+</p>
+
+<p>
+<b>Why you should not read this book:</b> If you&rsquo;re looking for specific, quantitative,
+actionable investment advice, this is not the right book for you. I&rsquo;m sure that
+Buffett and Munger have plenty of quantitative ways that they analyze their
+investments, but this is not that kind of book. This is a book that gives a
+window into the author&rsquo;s philosophy and worldview.
+</p>
+</div>
+</div>
+<div id="outline-container-orge992fb5" class="outline-2">
+<h2 id="orge992fb5">Learning by boundary seeking&#xa0;&#xa0;&#xa0;<span class="tag"><span class="learning">learning</span>&#xa0;<span class="parenting">parenting</span></span></h2>
+<div class="outline-text-2" id="text-orge992fb5">
+<p>
+In the last year since I became a parent, I&rsquo;ve had the wonderful opportunity to
+observe how my daughter acquires new skills and learns about the world around
+her.
+</p>
+
+<p>
+&ldquo;Boundary seeking&rdquo; is how I think of her main strategy for learning efficiently.
+</p>
+
+<p>
+When she first encounters a new object, she pushes it to its limits. One day
+last month she found a tote bag and played with it for the better part of an
+hour. She dragged it around the room, she whipped it around her body as fast as
+she could, she put her toys into it, she stepped on it, and of course, she put
+it on her head, which she thought was hilarious. (Don&rsquo;t worry, the tote bag is made from a
+breathable mesh and she was totally supervised the whole time.)
+</p>
+
+<p>
+By sampling over a large distribution space, she was able to find the most
+interesting things that she could do with the tote bag. She got lots of
+information about the way that the tote bag behaves under a wide variety of
+conditions. As she discovered new, interesting behaviors (like putting the bag
+over her head) she spend more time exploring them.
+</p>
+
+<p>
+This is a very efficient way to learn. Essentially, you sample as big a space as
+you can, then focus on the areas of that space that are most interesting to you.
+My theory is that these &ldquo;interesting&rdquo; areas of the space represent boundaries on
+a manifold, where one behavior changes into another. (Think, for example, about
+how the bag might be good for carrying things when you carry it loosely, but
+when you swing it around your head it makes a <i>whooshing</i> noise and it&rsquo;s more
+fun.) The most efficient way to explore a high-dimensional space is to move
+along boundaries, then use simple predictive heuristics to fill in the gaps
+between boundaries.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf36d2a6" class="outline-2">
+<h2 id="orgf36d2a6">Reasons being a parent is awesome&#xa0;&#xa0;&#xa0;<span class="tag"><span class="parenting">parenting</span></span></h2>
+<div class="outline-text-2" id="text-orgf36d2a6">
+<p>
+I want to share some of the reasons being a parent has been (somewhat
+unexpectedly) so good for me personally. I think these reasons will apply to
+almost every parent.
+</p>
+
+<p>
+Before I start, I want to make it clear my goal is <i>not</i> to convince everyone to
+have kids, but rather to show that parenthood is awesome in a couple of ways
+that I don&rsquo;t think get talked about enough.
+</p>
+</div>
+<div id="outline-container-org1e33561" class="outline-3">
+<h3 id="org1e33561">Being <i>your</i> child&rsquo;s parent has limited (or no) competition</h3>
+<div class="outline-text-3" id="text-org1e33561">
+<p>
+Competition to be your child&rsquo;s best parent is extremely limited. Unlike your
+professional interests (and likely your hobbies), the odds are pretty good that
+the pool of people trying to parent <i>your child specifically</i> is small. Sometimes,
+it might be a pool of one. I certainly feel that I&rsquo;m only competing against
+myself&#x2014;that my wife and I occupy different, non-competitive niches in our
+daughter&rsquo;s life. Within my niche, I am number one; undefeated! It doesn&rsquo;t matter
+to me that there isn&rsquo;t really anyone I&rsquo;m competing against&#x2014;it still gives me
+satisfaction to know that I am the best at what I do.
+</p>
+
+<p>
+Furthermore, whatever you do for your child is going to be a large fraction of
+their life experience. It doesn&rsquo;t matter very much if the things you do for them
+are imperfect&#x2014;what matters more is that you try. Just trying can get you to
+the top of the leaderboard&#x2014;but you have to try.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf8b4b05" class="outline-3">
+<h3 id="orgf8b4b05">Being a parent is orthogonal to other interests</h3>
+<div class="outline-text-3" id="text-orgf8b4b05">
+<p>
+How good of a parent you are can be completely uncorrelated with your
+professional success, your financial situation, or your hobbies. This
+decorrelation between parenting and the rest of your life makes it easier to
+still feel like a success, even if the only thing you&rsquo;re succeeding in is being
+a good parent to your child.
+</p>
+</div>
+</div>
+<div id="outline-container-org4f31578" class="outline-3">
+<h3 id="org4f31578">Being a parent is a great mix of instant and delayed gratification</h3>
+<div class="outline-text-3" id="text-org4f31578">
+<p>
+There are two kinds of work&#x2014;work that has instantaneous rewards, and work that
+has delayed rewards. In my experience, optimal productivity and happiness in
+one&rsquo;s work requires a mix of both kinds of work.
+</p>
+
+<p>
+Working without any short-term feedback on how you&rsquo;re doing makes it difficult
+to improve. Also, a lack of short-term rewards in your work will make each day
+exhausting, because at the end of each day you can be left thinking &ldquo;What did I
+do all that work today for?&rdquo;
+</p>
+
+<p>
+On the other hand, work that only has short-term rewards will never build up to
+a lifetime of achievement that you can look back on with satisfaction. You might
+be happy on each individual day, but the overall narrative arc is missing.
+</p>
+
+<p>
+Parenting, in my opinion, has the perfect mix of short-term and long-term
+rewards. In the short-term, it is generally rewarding to spend any amount of
+time with your kids doing something they enjoy. In the long-term, the things you
+work to teach them (both knowledge and values) can gradually shape your child
+into a fully-fledged human that you are happy to associate with.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcc6b1f3" class="outline-2">
+<h2 id="orgcc6b1f3">I fixed some chairs&#xa0;&#xa0;&#xa0;<span class="tag"><span class="life">life</span></span></h2>
+<div class="outline-text-2" id="text-orgcc6b1f3">
+<p>
+Today I fixed some chairs and it was the most satisfying thing I did all day.
+</p>
+
+<p>
+My wife bought some used chairs yesterday, and she noticed after bringing them
+home that they were a little wobbly. This evening, I pulled out my tools and
+started tightening screws to see if I could fix the problem.
+</p>
+
+<p>
+In the process, I discovered that one of the chairs had been put together
+incorrectly, with two of the legs having been swapped. Because it
+was put together wrong, it was very wobbly and some of the pieces were jammed
+together at crooked angles.
+</p>
+
+<p>
+Being able to sit down with a set of tools, diagnose a problem, and make the
+world a better place in just half an hour is a wonderful thing to experience. It
+wasn&rsquo;t a big fix, but it greatly improves the experience of sitting in those
+chairs.
+</p>
+
+<p>
+I think everybody needs moments like this. Everyone needs to experience
+regularly the satisfaction of problem-solving on a short timescale. Most of the
+things I do on a daily basis do not give me immediate rewards, and that makes it
+important that I find things that do give me immediate satisfaction&#x2014;running,
+cooking, and playing with my daughter are examples that come to mind.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf27b47b" class="outline-2">
+<h2 id="orgf27b47b">The spiritual dimension of food&#xa0;&#xa0;&#xa0;<span class="tag"><span class="food">food</span></span></h2>
+<div class="outline-text-2" id="text-orgf27b47b">
+<p>
+I baked a loaf of sourdough bread for the first time this week, which taught me
+some lessons about how food affects my sense of identity. My lunch today was
+very simple: two slices of sourdough bread with a bit of jam. To me, this plain
+meal is at least twice as satisfying as a hamburger from any restaurant. I think
+it has to do with something I&rsquo;m calling the &ldquo;spiritual dimension&rdquo; of food. One
+could also call it the &ldquo;emotional&rdquo; or &ldquo;intangible&rdquo; dimension of food, but I like
+the idea of a meal having a dual nature that feeds both our bodies and our
+spirits.
+</p>
+
+<p>
+The consumption of food provides us with the nutrients needed for life, but it&rsquo;s
+much more than that, like a job is more than just a source of income. Decisions
+about what we eat, how we eat, and with whom we eat are important components of
+the development of identity.
+</p>
+
+<p>
+The spiritual dimension of food is those components of food decisions that
+contribute to the nourishment of our spirits &#x2014; the intangible parts of who we
+are. These are our connections to other people, connections to our environment,
+and our knowledge, preferences, and abilities.
+</p>
+
+<p>
+For me, the decision to make and eat sourdough was partially motivated by a
+desire to be more involved in the food that I eat. By cooking for myself, I take
+more responsibility for my nutrition. I am responsible for selecting and
+preparing the ingredients. I reduce external dependencies on the (flavor and
+price) preferences of other people. Simultaneously, I increase my ability to
+provide for other people &#x2014; now that I know how to make sourdough bread, I can
+(and did) share it with other people. Being more involved in the details of my
+life gives me power to modify my life in the ways that I choose.
+</p>
+</div>
+</div>
+<div id="outline-container-org99bb9aa" class="outline-2">
+<h2 id="org99bb9aa">Learning vs. task completion&#xa0;&#xa0;&#xa0;<span class="tag"><span class="learning">learning</span></span></h2>
+<div class="outline-text-2" id="text-org99bb9aa">
+<p>
+Optimize studying for learning, not task completion.
+</p>
+
+<p>
+Rote completion of a task is best done by specialization and division of labor.
+The classical example of division of labor is <a href="https://en.wikipedia.org/wiki/Division_of_labour#Adam_Smith">the making of pins</a> &#x2014; by dividing
+the making of a pin into many simple tasks and assigning a worker to each task,
+pins can be made more efficiently than if every worker were to go through all
+the steps of making a pin.
+</p>
+
+<p>
+In the quest for greater efficiency in my studies, I have fallen into the trap
+of specialization of labor. If I&rsquo;ve already watched two or three lectures, I&rsquo;m
+in a lecture-watching and note-taking frame of mind. If I&rsquo;m studying with
+flashcards, it&rsquo;s easy for me to continue studying with flashcards. When I&rsquo;m &ldquo;in
+the zone,&rdquo; the least effortful study task is to continue doing what I&rsquo;m already
+doing. This feels more efficient because I&rsquo;m rapidly checking more things off my
+to-do list, but it&rsquo;s not the most effective way for me to <i>learn.</i>
+</p>
+
+<p>
+Learning is not the same as checking tasks off a to-do list. Watching four
+lectures instead of one in a single sitting doesn&rsquo;t mean that I&rsquo;ve learned four
+times as much. On the contrary, I might experience information overload by
+trying to absorb too much information in one sitting.
+</p>
+
+<p>
+Learning needs to happen incrementally because new information and memories
+decay quickly. Self-testing and reflection shortly after the first exposure help
+consolidate ideas for long-term storage. Although task-switching while learning
+is less efficient in terms of time used studying in a given day, information
+will be better retained.
+</p>
+
+<p>
+Learning is the cultivation of an interconnected garden of information and ideas
+that live in your brain. Plants don&rsquo;t grow, die, or bear fruit all at once.
+Neither do ideas. Effective study requires doing the right study tasks at the
+right time, not just as quickly as possible.
+</p>
+</div>
+</div>
+<div id="outline-container-org7a28ef6" class="outline-2">
+<h2 id="org7a28ef6">Non-overlapping sources of social support</h2>
+<div class="outline-text-2" id="text-org7a28ef6">
+<p>
+A friend of mine once advised some first-year medical students to develop
+<i>non-overlapping</i> sources of social support.
+</p>
+
+<p>
+His line of thinking went like this: if your only source of friends is your
+peers at school or work, you will be dependent on your work for your social
+life. Any disruption to your work would affect your social life, and <i>vice versa</i>.
+</p>
+
+<p>
+Additionally, socializing with co-workers often constrains conversation to
+work-related topics. This is because people naturally default to the things they
+have in common, which are the things that are easiest to talk about.
+</p>
+
+<p>
+If you&rsquo;re looking for ways to diversify your sources of social support, there
+are many different kinds of non-work social groups related to your interests or
+passions, such as a cultural affinity group, a political organization, a
+volunteer organization, a sports or games group, or a spiritual community.
+</p>
+
+<p>
+Developing non-overlapping sources of social support makes your social life
+robust to shocks and helps you develop more depth as a person.
+</p>
+</div>
+</div>
+<div id="outline-container-org127e878" class="outline-2">
+<h2 id="org127e878">Sabbaths and anti-sabbaths&#xa0;&#xa0;&#xa0;<span class="tag"><span class="productivity">productivity</span></span></h2>
+<div class="outline-text-2" id="text-org127e878">
+<p>
+<i>How a day dedicated to the profane improves my well-being</i>
+</p>
+
+<p>
+My <a href="https://alexanderell.is/posts/infinite-scroll/">lizard brain</a> was losing the battle against the internet.
+</p>
+
+<p>
+I kept finding interesting things that I just <i>had</i> to read. I knew from past
+experience that it was unreasonable to attempt quitting reading things on the
+internet altogether. I might &ldquo;get clean&rdquo; for a few days or a few weeks, but
+invariably there would be <i>something</i> I felt was worthy reading material and I&rsquo;d
+be back to my old ways. I felt like the optimal amount of time spent reading
+news and blog posts was non-zero, but it also wasn&rsquo;t multiple hours per day.
+</p>
+
+<p>
+Eventually I solved my problem by borrowing and inverting an ancient practice:
+the Sabbath. In some faiths, the core idea of the Sabbath is that it&rsquo;s a holy
+day of rest occurring one day per week, a day not to be profaned by certain
+activities such as work, commerce, or recreational pursuits.
+</p>
+
+<p>
+However, instead of refraining one day per week from the &ldquo;unholy&rdquo; activities of
+reading news and blog posts, I flipped it around: one day per week would be set
+aside for these &ldquo;unholy&rdquo; activities, and one day only. I call this day my
+&ldquo;anti-Sabbath.&rdquo; I chose mine to be on Friday.
+</p>
+
+<p>
+The anti-Sabbath has multiple advantages. First, it&rsquo;s a stronger argument, even
+if it&rsquo;s less rational. Why can&rsquo;t I read Scott Alexander&rsquo;s <a href="https://astralcodexten.substack.com/p/every-bay-area-house-party">latest</a> <a href="https://astralcodexten.substack.com/p/another-bay-area-house-party">installment</a> <a href="https://astralcodexten.substack.com/p/even-more-bay-area-house-party">of</a>
+&ldquo;Bay Area House Party&rdquo;? Because it&rsquo;s not Friday yet. My old argument against
+reading blog posts was mostly an appeal to productivity, which is a much weaker
+argument. I could always rationalize that I&rsquo;d really be more productive after a
+little break, or that it will be a really fast break and then I&rsquo;ll get back to
+work. In contrast, I can&rsquo;t argue very much about which day of the week it is.
+</p>
+
+<p>
+Second, the anti-Sabbath helps me be more efficient with my reading. Instead of
+spreading my internet browsing out over the course of a week, I have to pack it
+into a single day, in addition to all of the other things I already have to do
+that day. By the time I get around to reading all the new links in my RSS reader
+or checking the top page of HackerNews, I&rsquo;m short on time and I can&rsquo;t afford to
+read things that are only slighly interesting to me. I discard links I&rsquo;m not
+very interested in, which ends up being about half of what shows up in my RSS
+reader. If I start reading something and discover that it&rsquo;s not very good, I&rsquo;ll
+stop reading it. Having limited time in which to enjoy the week&rsquo;s news and other
+reading helps me use that time effectively.
+</p>
+
+<p>
+Third, the anti-Sabbath turns what was once an escape into a chore. Compressing
+all of my reading into one evening makes it a far less enjoyable experience than
+if I were to spread it out over the course of a week. Making my distraction
+reading an unpleasant experience makes it much, much easier to resist on every
+other day of the week. This has been great for breaking my habit of compulsively
+checking newsfeeds such as HackerNews.
+</p>
+
+<p>
+Finally, anti-Sabbaths help alleviate the fear of missing out that I would get
+from trying to quit altogether. When I&rsquo;m worried that I could be missing
+important events, I can remind myself that really important things will still be
+headlines by the end of the week, and the things that don&rsquo;t matter by the end of
+the week aren&rsquo;t worth reading at all.
+</p>
+</div>
+</div>
+<div id="outline-container-org5669b21" class="outline-2">
+<h2 id="org5669b21">Book Review: Zen and the Art of Motorcycle Maintenance&#xa0;&#xa0;&#xa0;<span class="tag"><span class="bookreview">bookreview</span></span></h2>
+<div class="outline-text-2" id="text-org5669b21">
+<p>
+<i>Zen and the Art of Motorcycle Maintenance</i> can be thought of as an answer to a
+simple question: what is Good?
+</p>
+
+<p>
+The answer is something called &ldquo;Quality.&rdquo;
+</p>
+
+<p>
+Quality is a kind of you-know-it-when-you-see-it sort of Goodness that comes
+from authentic ways of working, creating, and being. It&rsquo;s the thing that makes
+me savor <a href="https:jrasband.com/posts/2024-10-04-the-spiritual-dimension-of-food">a homemade PB&amp;J</a> just as much as a restaurant cheeseburger. It&rsquo;s the
+secret sauce, the mojo, the oomph.
+</p>
+
+<p>
+<i>Zen and the Art of Motorcycle Maintenance</i> is a book for our time. Everywhere I
+look I see a dearth of quality. Technological advances have made it so that
+every human activity demands less and less of us, so we give less of ourselves
+and get less in return.
+</p>
+
+<p>
+This was not a satisfying book to read. Its <i>dramatis personae</i> are in pain. It
+asks more questions than it answers. However, it was certainly worth my time.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd88f6cb" class="outline-2">
+<h2 id="orgd88f6cb">Lean into it&#xa0;&#xa0;&#xa0;<span class="tag"><span class="life">life</span></span></h2>
+<div class="outline-text-2" id="text-orgd88f6cb">
+<p>
+In the absence of strong preferences, default to specialization in the ways that
+are most accessible to you.
+</p>
+
+<p>
+This is a good heuristic because it leverages the random details of your
+circumstances into the possibility of a significant comparative advantage.
+</p>
+
+<p>
+I think the world needs more people who are willing to &ldquo;lean into&rdquo; the quirks of
+their individual circumstances. Diversity and specialization are engines of
+scientific progress, economic growth, and artistic expression.
+</p>
+
+<p>
+By &ldquo;leaning into it&rdquo; you attempt to take advantage of your unique position,
+whatever it is.
+</p>
+</div>
+</div>
+<div id="outline-container-orgd13aadb" class="outline-2">
+<h2 id="orgd13aadb">Improved org-capture on MacOS&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span></span></h2>
+<div class="outline-text-2" id="text-orgd13aadb">
+<p>
+I read <a href="https://macowners.club/posts/org-capture-from-everywhere-macos/">this post</a> and it got me excited about using <code>emacsclient</code> to capture from
+anywhere on MacOS. I was particular about getting the capture frame to show only
+capture-related buffers, so I needed to make some modifications to the original
+code based on comments on <a href="https://emacs.stackexchange.com/questions/46460/org-capture-frame-with-no-splits">this stackoverflow question</a>.
+</p>
+
+<p>
+Here&rsquo;s my solution:
+</p>
+<pre class="example" id="orgc49d5cb">
+(defun my/make-org-capture-frame ()
+  "Create a new frame and run `org-capture'."
+  (interactive)
+  (make-frame '((name . "capture")
+                (top . 300)
+                (left . 700)
+                (width . 80)
+                (height . 25)))
+  (select-frame-by-name "capture")
+  (delete-other-windows)
+  (cl-letf (((symbol-function 'switch-to-buffer-other-window) #'switch-to-buffer) ((symbol-function 'org-display-buffer-split) #'org-display-buffer-full-frame)) (org-capture)))
+
+(defun my/org-capture-delete-frame (orig-fun &amp;rest args)
+  (if (equal "capture" (frame-parameter nil 'name))
+      (delete-frame))
+  (apply orig-fun args))
+
+(advice-add 'user-error :around #'my/org-capture-delete-frame)
+(advice-add 'org-capture-finalize :around #'my/org-capture-delete-frame)
+</pre>
+
+<p>
+Now you can call <code>emacsclient -nw --eval "(my/make-org-capture-frame)"</code> and it
+will open a capture buffer in a new frame.
+</p>
+</div>
+</div>
+<div id="outline-container-orgc8d5b7d" class="outline-2">
+<h2 id="orgc8d5b7d">An overview of my Emacs journey&#xa0;&#xa0;&#xa0;<span class="tag"><span class="emacs">emacs</span></span></h2>
+<div class="outline-text-2" id="text-orgc8d5b7d">
+<p>
+I&rsquo;ll probably write more about the ways that Emacs (and Org mode) has improved
+my life, but here&rsquo;s a brief summary.
+</p>
+
+<p>
+I started using Emacs during college after getting introduced to Org mode by my
+research mentor. I&rsquo;d just gotten burned by two of my preferred software tools
+getting shut down&#x2014;one was a text editor, and the other was a productivity
+manager, so I was about as receptive as one could be to the idea of open-source
+text editors and productivity managers.
+</p>
+
+<p>
+Over the next few years, Emacs became an integral part of my writing,
+note-taking, and programming workflows. Part of what I enjoyed about Emacs was
+how it challenged me to learn more and to become more. Emacs didn&rsquo;t hold my
+hand&#x2014;it demanded that I learn how to program.
+</p>
+
+<p>
+Another key component was the community. Without the abundance of blogs and
+forums and YouTube tutorials guiding me at each step of my Emacs path, I
+probably would have given up early on. The thing that I loved the most about the
+Emacs (and computer science community in general) is that they seemed to be the
+kind of people I wanted to be around. They were curious, hard-working, and
+clever. They had interesting ideas and interesting taste.
+</p>
+
+<p>
+Now, I&rsquo;m a committed Emacs user. It&rsquo;s not for everyone, but I love how it&rsquo;s
+helped me grow, I love the ideas and communities it&rsquo;s helped me discover, and I
+love the sense of ownership and independence that open source brings me.
+</p>
+</div>
+</div>
+<div id="outline-container-orgcb6b6ba" class="outline-2">
+<h2 id="orgcb6b6ba">High-yield ways to increase happiness&#xa0;&#xa0;&#xa0;<span class="tag"><span class="life">life</span></span></h2>
+<div class="outline-text-2" id="text-orgcb6b6ba">
+<p>
+The advertising industry usually tries to tell you that if you buy their
+product or service, you will be happy.
+</p>
+
+<p>
+The problem with this approach to buying happiness is that the increase in
+happiness that you get from buying something will usually attenuate after a
+short period of time.
+</p>
+
+<p>
+Fortunately, there are more effective, longer-lasting ways to increase
+happiness. They just aren&rsquo;t being marketed to you because there&rsquo;s no money in
+them.
+</p>
+</div>
+<div id="outline-container-org87ec107" class="outline-3">
+<h3 id="org87ec107">Decrease annoyances</h3>
+<div class="outline-text-3" id="text-org87ec107">
+<p>
+My favorite way to improve life happiness in the long-term is to fix things that
+bother me. If you&rsquo;re bothered about twice a week by your gate being stuck when
+you want to take out the trash (as I was), it&rsquo;s kind of a no-brainer to take an
+hour to diagnose and fix the problem.
+</p>
+
+<p>
+This principle can be applied to a wide variety of annoyances. Traffic during a
+morning commute. Having to make yourself breakfast every morning. An
+inconvenient location for a tool that gets used regularly.
+</p>
+
+<p>
+There are probably dozens of inconveniences and frustrations that you deal with
+every day, and it&rsquo;s probably worth more than you think to eliminate those daily
+annoyances. As you spend less and less of your day being annoyed, you&rsquo;ll be
+happier and more productive. Your interpersonal relationships might also
+improve, as you&rsquo;ll have more emotional bandwidth for dealing with interpersonal
+frictions.
+</p>
+</div>
+</div>
+<div id="outline-container-org52af439" class="outline-3">
+<h3 id="org52af439">Build in recurring pleasures that don&rsquo;t saturate</h3>
+<div class="outline-text-3" id="text-org52af439">
+<p>
+Try to find things that you know you can get excited about every day. For me, I
+will always get excited about a good meal when I&rsquo;m hungry, so I try to make sure
+that my meals can be a regular source of happiness in my day. I do that by
+choosing high-quality ingredients and making meals that will make me happy, not
+just fill my stomach.
+</p>
+
+<p>
+Whatever it is that can make you happy (and not just entertained) every single
+time, try to build it into your daily routine. Have a few, regularly-occurring
+bright spots you can look forward to each day. It will increase your average
+daily happiness in the long run.
+</p>
+</div>
+</div>
+<div id="outline-container-orgcd6f5e0" class="outline-3">
+<h3 id="orgcd6f5e0">Think in happier ways</h3>
+<div class="outline-text-3" id="text-orgcd6f5e0">
+<p>
+Happiness is a mental and emotional state. One of the most significant, but
+difficult things you can do for your happiness is to try to cultivate mental and
+emotional habits that facilitate happiness.
+</p>
+
+<p>
+This is a complicated topic. It touches on mental illness and the limits of our
+ability to control our own thoughts. For now, I think it suffices to say that
+it&rsquo;s often possible to change the way that you think in a way that improves your
+happiness. There are many frameworks for doing so.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb846309" class="outline-2">
+<h2 id="orgb846309">Why I make my own flashcards&#xa0;&#xa0;&#xa0;<span class="tag"><span class="learning">learning</span></span></h2>
+<div class="outline-text-2" id="text-orgb846309">
+<p>
+During medical school, I started using the Anki spaced repetition system to put
+large amounts of knowledge into my long-term memory. At first, I used decks made
+by other students. Eventually, I found that I preferred creating my own
+flashcards over using decks of pre-made flashcards.
+</p>
+</div>
+<div id="outline-container-orgc18d984" class="outline-3">
+<h3 id="orgc18d984">Focus</h3>
+<div class="outline-text-3" id="text-orgc18d984">
+<p>
+Making my own flashcards is a significant use of time and effort. At first
+blush, that sounds like it&rsquo;s a disadvantage, but it can also be framed as a
+benefit. Because there is a non-zero cost to making my flashcards, it
+incentivizes me to make the minimum number of flashcards necessary and no more.
+I found that before I started making my own cards, I was tempted to download
+more decks than I reasonably had time to study. The cost incurred by making my
+own cards helps me foucs my energies on just the facts that I want to remember.
+</p>
+</div>
+</div>
+<div id="outline-container-orga3ea19d" class="outline-3">
+<h3 id="orga3ea19d">Ownership</h3>
+<div class="outline-text-3" id="text-orga3ea19d">
+<p>
+Because I make my own flashcards, I have a deeper sense of accountability for my
+study. When I see a &ldquo;bad&rdquo; flashcard (e.g. one that is poorly worded or
+ambiguous) I know that it&rsquo;s my fault and I need to fix it. When using a deck
+made by someone else, it&rsquo;s easier to ignore the card and keep studying without
+improving anything. The knowledge that my flashcards are fully my responsibility
+helps me keep iterating and making better and better cards.
+</p>
+</div>
+</div>
+<div id="outline-container-org9cce42e" class="outline-3">
+<h3 id="org9cce42e">Schema construction</h3>
+<div class="outline-text-3" id="text-org9cce42e">
+<p>
+The process of making flashcards helps me construct a schema into which I can
+place facts. When I make flashcards, I have to ask myself what the most
+important things to know are. As I organize my notes, it encourages me to think
+about the relationships between concepts&#x2014;how they are similar, how they are
+different. By making flashcards, I give myself time to think about the facts I&rsquo;m
+studying and how they are related&#x2014;something I wouldn&rsquo;t be forced to do if I
+were to rely soley on decks made by other people.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org865b2d2" class="outline-2">
+<h2 id="org865b2d2">Find joys that satiate you&#xa0;&#xa0;&#xa0;<span class="tag"><span class="life">life</span></span></h2>
+<div class="outline-text-2" id="text-org865b2d2">
+<p>
+Some activities are &rsquo;satiating&rsquo;&#x2014;when you&rsquo;re done, you don&rsquo;t have an increased
+desire to do or consume more. Think about a meal that leaves your hunger totally
+satisfied. That kind of a pleasure is the kind of pleasure that we ought to be
+spending most of our time on, in contrast to things that, like potato chips, never
+satisfy the desire they were supposed to address in the first place.
+</p>
+
+<p>
+Many modern forms of entertainment, such as social media and streaming
+television, don&rsquo;t satiate. As a result, people spend much more time consuming
+than they intend to. To continue the analogy, they wanted to satisfy their
+hunger, but instead of eating a meal, they opened up a bag of potato chips.
+</p>
+
+<p>
+Look at your day and think about the things that you spend time doing. Why do
+you do those things? What needs are you trying to fufill? Are those needs being
+satiated? As you consciously meet your needs, you will be satiated.
+</p>
+</div>
+</div>
+<div id="outline-container-org99962f4" class="outline-2">
+<h2 id="org99962f4">Values vs. tastes&#xa0;&#xa0;&#xa0;<span class="tag"><span class="life">life</span></span></h2>
+<div class="outline-text-2" id="text-org99962f4">
+<p>
+After I got married, I learned an important lesson: there is a big difference
+between differences in taste and differences in values. Differences in taste are
+easy to live with and usually easy to compromise on. Differences in values are
+basically impossible to come to a satisfactory compromise on. The way you like
+your scrambled eggs is a taste. Whether you think it&rsquo;s morally justified to be
+eating eggs at all is a value.
+</p>
+
+<p>
+What&rsquo;s the difference between a taste and a value? I think a taste is basically
+a personal preference which you recognize is not intrinsically superior to other
+preferences. In contrast, a value is something that you believe in because you
+view it as being better or more true than other, competing values. Values are
+not viewed as a matter of preference, which makes them more difficult to
+compromise on.
+</p>
+
+<p>
+Although it&rsquo;s much more difficult to find compromise when there&rsquo;s a difference
+of values, a values-centered discussion can be very meaningful and productive.
+It&rsquo;s very much possible to have one set of values, yet respect deeply another
+person&rsquo;s commitment to a different set of values. Values are also typically not
+a choice between right and wrong, but a choice between many good options, one of
+which is deemed most important. When you understand someone at the level of
+their values, you gain far more insight into their reasoning than if you were to
+understand them at a more superficial level.
+</p>
+</div>
+</div>
+<div id="outline-container-org74393c7" class="outline-2">
+<h2 id="org74393c7">Deliberate practice of self-mastery&#xa0;&#xa0;&#xa0;<span class="tag"><span class="productivity">productivity</span>&#xa0;<span class="life">life</span></span></h2>
+<div class="outline-text-2" id="text-org74393c7">
+<p>
+The single most important factor for success is having self-mastery.
+</p>
+
+<p>
+Self-mastery is difficult to teach, but it can be cultivated. The key is to
+developing self-mastery is proper stewardship of the reward circuits of your
+brain. You need to make sure that your brain sends reward signal in ways that
+will direct you to achieve your goals.
+</p>
+
+<p>
+The main way that I have accomplished this is through deliberate practice. Every
+time I want some kind of reward or break, I push myself to work just a little
+longer before I reward myself. Then, when I accomplish my goal, the sense of
+reward is associated with self-mastery, rather than giving in, thereby
+reinforcing a sense of pleasure at delayed gratification.
+</p>
+
+<p>
+I&rsquo;m now at a point where a lot of the pleasure in my day comes from the
+knowledge that I have successfully achieved my goals. On nights when I force
+myself to do the dishes and finish my homework before I let myself have dessert,
+it&rsquo;s the sense of accomplishment that is the bigger reward.
+</p>
+
+<p>
+This is a difficult pattern of thought to cultivate. It&rsquo;s taken me almost a
+decade to get here. The rewards are enormous, however. The ability to say no to
+basically any distraction or temptation in favor of accomplishing my goals has
+been of critical importance as I try to balance my many responsibilities and
+goals.
+</p>
+
+<p>
+As a final note, self-mastery does not have to mean that every waking moment is
+spent working or studying. It just means that your decisions are more fully
+yours. I have found that self-mastery has actually increased my enjoyment of
+leisure activities, because I can engage in them with the knowledge that I have
+picked leisure because it is what I want to do, not because it is easy.
+</p>
+</div>
+</div>
+<div id="outline-container-org3337cb7" class="outline-2">
+<h2 id="org3337cb7">Introductory CS education misses the useful stuff</h2>
+<div class="outline-text-2" id="text-org3337cb7">
+<p>
+The most important things I&rsquo;ve learned about how to use a computer were things
+that I&rsquo;ve had to teach myself.
+</p>
+
+<p>
+My formal CS education consists of an AP class in high school, an
+introductory-level CS class in college, and three computational physics labs. In
+none of those classes did I learn about shell scripting, version control, or
+package management.
+</p>
+
+<p>
+Together, these three skills have opened up worlds of
+productivity and possibility for me. They gave me the ability to write quick
+scripts to move and rename files <i>en masse</i>, improved how I fix bugs and implement
+features, and gave me access to a huge ecosystem of publicly available tools.
+</p>
+
+<p>
+I think it&rsquo;s likely that this observation applies to formal education generally.
+Rather than starting with the most useful things, formal education usually
+starts with some theoretical fundamentals which are supposed to build up to
+something useful (think &ldquo;the mitochondria is the powerhouse of the cell&rdquo;). Maybe
+we need to consider inverting that structure, so that students first learn how
+to do useful things, and then they can learn the foundational knowledge they&rsquo;ll
+need as they want to improve their skills.
+</p>
+</div>
+</div>
+<div id="outline-container-org71cb2ba" class="outline-2">
+<h2 id="org71cb2ba">Better is better than more&#xa0;&#xa0;&#xa0;<span class="tag"><span class="productivity">productivity</span></span></h2>
+<div class="outline-text-2" id="text-org71cb2ba">
+<p>
+Most of the time, when I say &ldquo;I should be doing more&rdquo; what I <i>should</i> be saying is
+&ldquo;I should be doing things differently.&rdquo;
+</p>
+
+<p>
+It&rsquo;s often assumed that we could always be doing <i>more</i>. Exercising more, sleeping
+more, working more, reading more&hellip; more, more, more. I&rsquo;m not convinced that&rsquo;s
+true.
+</p>
+
+<p>
+There are 24 hours in a day, and we spend each minute of the day doing
+<i>something</i>. We&rsquo;re never going to be able to fit more than 24 hours of time into a
+day. The task left to us is to determine <i>how</i> we&rsquo;re going to use the time we
+have.
+</p>
+
+<p>
+Why is this distinction important? Psychologically, it can be daunting to think
+about adding things to our to-do list without taking anything away. I&rsquo;ve found
+it&rsquo;s helpful to think about how I should be doing things better rather than how
+I should be doing more.
+</p>
+
+<p>
+My success rate for behavioral modification improves when I&rsquo;m able to identify
+how existing components of my daily life will be modified or replaced by
+something better. Instead of planning to complete a task at a vague
+&ldquo;sometime,&rdquo; I can identify a specific time of day at which I will change my
+behavior from what was previously planned. This dramatically increases my
+chances of success.
+</p>
+
+<p>
+This principle also applies in large organizations and bureaucracies. Better is
+superior to more.
+</p>
+</div>
+</div>
+<div id="outline-container-org2d18366" class="outline-2">
+<h2 id="org2d18366"><span class="todo TODO">TODO</span> How to love what you do&#xa0;&#xa0;&#xa0;<span class="tag"><span class="life">life</span></span></h2>
+<div class="outline-text-2" id="text-org2d18366">
+<p>
+&lt;Appreciation of the Good&gt; can help foster love for any worthwhile
+endeavor.
+</p>
+
+<p>
+It&rsquo;s been said that you should <a href="https://paulgraham.com/when.html">do what you love</a>. One way to do what you love is
+to <a href="https://www.justinmath.com/love-what-you-do/">love what you do</a>. But how exactly does one love what they do, especially if
+they aren&rsquo;t in love with it right now?
+</p>
+
+<p>
+I don&rsquo;t totally agree with the idea (in the previous link) that love is
+&ldquo;perpetual hardcore effort.&rdquo; I definitely think that the fullest expression of
+love necessarily involves &ldquo;perpetual hardcore effort,&rdquo; but I don&rsquo;t think that
+it&rsquo;s a sufficient condition. One can put a lot of effort into something, but
+that doesn&rsquo;t make it love. Indeed, there are lots of people around the world who
+put lots of effort (out of financial necessity, perhaps) into their careers
+without being in love with their job. So, besides effort, what does one need to
+do to love their job?
+</p>
+</div>
+</div>
+<div id="outline-container-org2c2e508" class="outline-2">
+<h2 id="org2c2e508"><span class="todo TODO">TODO</span> Emigration and illiberalization of the developing world</h2>
+<div class="outline-text-2" id="text-org2c2e508">
+<p>
+Emigration from developing countries to Western countries may be partially to
+blame for the stagnation of liberal democratic reform in the developing world.
+</p>
+
+<p>
+As a rule, developed, Western countries (e.g. the United States, Western Europe,
+and the Anglophone countries) are pretty tolerant of deviance from traditional
+norms. These are countries with strong protections for individual expression
+along many dimensions&#x2014;speech, religious and political belief, and sexuality to
+name a few.
+</p>
+
+<p>
+As a rule, developing countries tend to be less tolerant of deviation from
+traditional norms.
+</p>
+
+<p>
+This creates strong incentives for the most liberal, Westernized (and often the
+most educated and wealthiest) citizens of developing countries to move to places
+that will be more tolerant of them.
+</p>
+
+<p>
+The result is like Maxwell&rsquo;s demon, but for geopolitics. The potential leaders
+and catalysts for democratic reform leave, and no progress is made.
+</p>
+</div>
+</div>
+<div id="outline-container-org05271a6" class="outline-2">
+<h2 id="org05271a6"><span class="todo TODO">TODO</span> Sunday Corner</h2>
+<div class="outline-text-2" id="text-org05271a6">
+</div>
+<div id="outline-container-org9122907" class="outline-3">
+<h3 id="org9122907">&ldquo;Call the sabbath a delight&rdquo;</h3>
+<div class="outline-text-3" id="text-org9122907">
+<blockquote>
+<p>
+If thou turn away thy foot from the sabbath, from doing thy pleasure on my holy
+day; and call the sabbath a delight&hellip; Then shalt thou delight thyself in the Lord; and I
+will cause thee to ride upon the high places of the earth&hellip;
+&#x2014;Isaiah 58:13
+</p>
+</blockquote>
+
+<p>
+I never expected to have such strong opinions about the observance of a day of
+rest. As a child, it was just something that my family did, and I went along
+with them. During my adult years, however, the deliberate observance of a weekly
+sabbath has been wonderful for my mental health and my family relationships.
+</p>
+
+<p>
+The sabbath is a day that is set aside to be different from the other days of
+the week. It is different because it is supposed to be filled with activities
+that are higher and holier than what takes up most of our time the other days of
+the week. To encourage holier actions on the sabbath, certain &ldquo;profane&rdquo;
+activities may be discouraged, restricted, or forbidden during the twenty-four
+hour period of the sabbath.
+</p>
+
+<p>
+There are many ways one can choose to make the sabbath a special day, a day set
+apart from all the others. Here are some of the ways that I observe the sabbath:
+</p>
+<ul class="org-ul">
+<li>Family: the sabbath is a day on which I block out time specifically for
+strengthening my family relationships</li>
+<li>Service: on the sabbath, I try to take every possible opportunity to serve others</li>
+<li>Refrain from work: this is subjective, but I don&rsquo;t do professional work,
+schoolwork, or non-daily chores (washing dishes is ok, mowing the lawn is not)</li>
+<li>Refrain from entertainment: if I consume books, music, or other media on the
+sabbath, I hold it to a much higher standard</li>
+</ul>
+
+<p>
+Observing the sabbath has been wonderful for my mental health and my family
+relationships. It is an immense comfort to me to know that however hard my
+professional life is going during the week, I will have at least one day each
+week on which I will set aside my worldly cares and anxieties. On the sabbath, I
+might be working just as hard as other days of the week, but my focus is
+different&#x2014;my focus will be on my family, or on the people whom I&rsquo;m trying to
+serve.
+</p>
+
+<p>
+The key to the sabbath lies in submission&#x2014;the temporal, worldly, or immediate
+must submit to the spiritual, to the eternal. A few years ago, I realized that
+my personal sabbath observance would be much improved by making sure that I wasn&rsquo;t
+reading science fiction or fantasy novels on the sabbath. This change was very
+difficult for me, because I love books, but it made a huge difference because it
+changed the sabbath from a day of mere entertainment and relaxation to a day of
+rest and renewal.
+</p>
+
+<p>
+To discover the benefits of keeping a sabbath, one must try it, and try it
+consistently. It may be difficult to adjust to at first, but I promise that you
+will see some of the same benefits that I have seen.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Joshua Rasband (<a href="mailto:joshuarasband@Joshuas-Laptop.local">joshuarasband@Joshuas-Laptop.local</a>)</p>
+<p class="date">Date: </p>
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 30.1 (<a href="https://orgmode.org">Org</a> mode 9.7.11)</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

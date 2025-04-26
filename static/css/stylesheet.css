@@ -1,0 +1,183 @@
+/* Base styles and CSS variables */
+:root {
+  /* Light mode colors (default) */
+  --background: #f5f5f5;
+  --text: #333333;
+  --heading: #222222;
+  --link: #0066cc;
+  --link-hover: #004080;
+  --border: #dddddd;
+  --code-bg: #eaeaea;
+  
+  /* Typography */
+  --font-main: Helvetica, Arial, sans-serif;
+  --font-size-base: 1.1rem;
+  --line-height: 1.3;
+}
+
+/* Dark mode colors */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #282c34;
+    --text: #d4d4d4;
+    --heading: #e4e4e4;
+    --link: #61afef;
+    --link-hover: #8cc2ff;
+    --border: #4e4e4e;
+    --code-bg: #363b45;
+  }
+}
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: var(--font-main);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height);
+  padding: 0 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading);
+  margin: 1.5rem 0 1rem;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+}
+
+/* Links */
+a {
+  color: var(--link);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover, a:focus {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+/* Lists */
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Code blocks */
+code, pre {
+  font-family: monospace;
+  background-color: var(--code-bg);
+  border-radius: 3px;
+}
+
+code {
+  padding: 0.2rem 0.4rem;
+}
+
+pre {
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th, td {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+th {
+  text-align: left;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem 0;
+}
+
+/* Forms and buttons */
+input, textarea, select, button {
+  font-family: var(--font-main);
+  font-size: var(--font-size-base);
+  padding: 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--link);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+button:hover {
+  background-color: var(--link-hover);
+}
+
+/* Basic layout utilities */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.95rem;
+  }
+  
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+  }
+}

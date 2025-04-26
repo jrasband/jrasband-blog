@@ -1,0 +1,3 @@
+#+TITLE: Joshua Rasband's blog
+
+- [[file:all-posts.org][all-posts]]
