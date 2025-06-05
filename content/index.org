@@ -1,0 +1,10 @@
+#+title: Welcome to jrasband's blog
+#+options: title:nil
+
+Welcome to my website!
+
+* Posts archive ([[file:blog/feed.xml][RSS]])
+
+#+begin_blog-entries
+#+INCLUDE: "blog/blog-archive.org" :lines "3-"
+#+end_blog-entries

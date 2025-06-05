@@ -1,0 +1,5 @@
+#+TITLE: Not found
+
+This page is not found.
+
+Return [[/][home]].

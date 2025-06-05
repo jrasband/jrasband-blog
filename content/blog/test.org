@@ -1,0 +1,18 @@
+#+title: Test
+
+This is a test post. I'm writing some things to see how my blog publishing engine works.
+
+#+begin_src emacs-lisp
+  ;; a message
+  (message "Hello, world!")
+  ;; a function definition
+  (defun plus (x y)
+    (+ x y))
+#+end_src
+
+Here is a quote:
+#+begin_quote
+Charms strike the sight, but merit wins the soul.
+
+---Samuel Johnson
+#+end_quote

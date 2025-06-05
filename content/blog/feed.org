@@ -1,0 +1,9 @@
+#+TITLE: jrasband's blog
+
+* Test
+:properties:
+:rss_permalink: test.html
+:pubdate: 2025-06-05 Thu
+:ID:       28C6DB4F-1357-4E61-A316-9A71310FC0F9
+:END:
+#+include: /Users/joshuarasband/Alexandria/30-Projects/jrasband-blog/content/blog/test.org :lines "3-"

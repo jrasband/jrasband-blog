@@ -60,7 +60,7 @@ commitment: for the next month (until October 27th, 2024), I will write one blog
 post every day. They probably won't be very long (or very good), but I'm going to
 write them.
 * Testing and worth :learning:
-* Against additive solutions :organization:
+* DONE Against additive solutions :organization:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2024-09-29-against-additive-solutions
 :EXPORT_DATE: 2024-09-29
@@ -641,40 +641,11 @@ which is deemed most important. When you understand someone at the level of
 their values, you gain far more insight into their reasoning than if you were to
 understand them at a more superficial level.
 
-* Deliberate practice of self-mastery :productivity:life:
+* DONE Deliberate practice of self-mastery :productivity:life:
 :PROPERTIES:
 :EXPORT_FILE_NAME: 2024-10-17-deliberate-practice-of-self-mastery
 :EXPORT_DATE: 2024-10-17
 :END:
-The single most important factor for success is having self-mastery.
-
-Self-mastery is difficult to teach, but it can be cultivated. The key is to
-developing self-mastery is proper stewardship of the reward circuits of your
-brain. You need to make sure that your brain sends reward signal in ways that
-will direct you to achieve your goals.
-
-The main way that I have accomplished this is through deliberate practice. Every
-time I want some kind of reward or break, I push myself to work just a little
-longer before I reward myself. Then, when I accomplish my goal, the sense of
-reward is associated with self-mastery, rather than giving in, thereby
-reinforcing a sense of pleasure at delayed gratification.
-
-I'm now at a point where a lot of the pleasure in my day comes from the
-knowledge that I have successfully achieved my goals. On nights when I force
-myself to do the dishes and finish my homework before I let myself have dessert,
-it's the sense of accomplishment that is the bigger reward.
-
-This is a difficult pattern of thought to cultivate. It's taken me almost a
-decade to get here. The rewards are enormous, however. The ability to say no to
-basically any distraction or temptation in favor of accomplishing my goals has
-been of critical importance as I try to balance my many responsibilities and
-goals.
-
-As a final note, self-mastery does not have to mean that every waking moment is
-spent working or studying. It just means that your decisions are more fully
-yours. I have found that self-mastery has actually increased my enjoyment of
-leisure activities, because I can engage in them with the knowledge that I have
-picked leisure because it is what I want to do, not because it is easy.
 
 * Introductory CS education misses the useful stuff
 :PROPERTIES:
@@ -829,4 +800,3 @@ If my stint in higher education has taught me anything, it's that we need better
 
 # Why?
 The reason that many people love markets so much is that they provide a mechanism for communicating. Many of society's ills today are described as market failures. A common cause of market failures is information asymmetry between buyers and sellers. For example, both employers and potential employees have incentives to misrepresent themselves to each other.
-
