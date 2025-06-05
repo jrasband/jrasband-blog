@@ -824,3 +824,9 @@ To discover the benefits of keeping a sabbath, one must try it, and try it
 consistently. It may be difficult to adjust to at first, but I promise that you
 will see some of the same benefits that I have seen.
 
+* TODO We need more and better evals for humans
+If my stint in higher education has taught me anything, it's that we need better ways of measuring the ways that different humans have different abilities.
+
+# Why?
+The reason that many people love markets so much is that they provide a mechanism for communicating. Many of society's ills today are described as market failures. A common cause of market failures is information asymmetry between buyers and sellers. For example, both employers and potential employees have incentives to misrepresent themselves to each other.
+
