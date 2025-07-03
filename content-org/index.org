@@ -1,4 +1,0 @@
-#+TITLE: Joshua Rasband's blog
-
-- [[file:cross-purposes.org][Book Review: Cross Purposes, by Jonathan Rauch]]
-- [[file:all-posts.org][all-posts]]
