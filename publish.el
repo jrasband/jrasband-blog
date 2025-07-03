@@ -155,6 +155,7 @@ PLIST contains the properties, FILENAME the source file and
 ;; RSS feed
 ;; see: https://nicolasknoebber.com/posts/blogging-with-emacs-and-org.html#org9edef43
 ;; from : https://github.com/knoebber/nicolasknoebber.com/blob/6b05e9163e02d6d62034425c87056f3f97b2d4f2/src/site.el#L84C1-L117C1
+(setq org-rss-image-url (concat website-base-url "public/favicon-32x32.png"))
 
 (defun publish-posts-rss-feed (plist filename dir)
   "Publish PLIST to RSS when FILENAME is rss.org.
