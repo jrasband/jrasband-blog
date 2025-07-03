@@ -16,4 +16,4 @@ jobs:
         run: sudo apt install emacs-nox --yes
 
       - name: Build the site
-        run: ./publish.el
+        run: ./build.sh
