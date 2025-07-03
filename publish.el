@@ -24,8 +24,32 @@
 
 ;;; Code:
 
+;;;; package installation
+(require 'package)
+
+;; Set the package installation directory so that packages aren't stored in the
+;; ~/.emacs.d/elpa path.
+(setq package-user-dir (expand-file-name "./.packages"))
+
+;; Don't make backup files
+(setq make-backup-files nil)
+
+;; prevent built-in versions of org from loading
+(assq-delete-all 'org package--builtins)
+(assq-delete-all 'org package--builtin-versions)
+
+(package-initialize)
+
+(unless package-archive-contents
+  (add-to-list 'package-archives '("nongnu" . "https://elpa.nongnu.org/nongnu/") t)
+  (add-to-list 'package-archives '("melpa"  . "https://melpa.org/packages/")     t)
+  (package-refresh-contents))
+
+(dolist (pkg '(org org-contrib htmlize ox-rss))
+  (unless (package-installed-p pkg)
+    (package-install pkg)))
+
 ;;;; requires
-;; Make sure that packages are installed
 (require 'org)
 (require 'org-id) ;; NOTE: not sure what this is used for
 (require 'ox-publish)
