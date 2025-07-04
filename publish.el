@@ -80,6 +80,46 @@
                       (content "main" "content")
                       (postamble "footer" "postamble")))
 (setq org-html-container-element "section")
+;; (setq org-html-with-latex 'dvisvgm)
+
+(setq enable-local-variables :all)
+
+(setq org-html-with-latex 'mathjax)
+(setq org-html-mathjax-template
+      "<script>
+  window.MathJax = {
+    loader: {load: ['[tex]/textmacros']},
+    tex: {
+      packages: {'[+]': ['textmacros', 'physics']}}
+      ams: {
+        multlineWidth: '%MULTLINEWIDTH'
+      },
+      tags: '%TAGS',
+      tagSide: '%TAGSIDE',
+      tagIndent: '%TAGINDENT'
+    },
+    chtml: {
+      scale: %SCALE,
+      displayAlign: '%ALIGN',
+      displayIndent: '%INDENT'
+    },
+    svg: {
+      scale: %SCALE,
+      displayAlign: '%ALIGN',
+      displayIndent: '%INDENT'
+    },
+    output: {
+      font: '%FONT',
+      displayOverflow: '%OVERFLOW'
+    }
+  };
+</script>
+
+<script
+  id=\"MathJax-script\"
+  async
+  src=\"%PATH\">
+</script>")
 
 (defvar footer-date-format "%a %d.%m.%Y %H:%M")
 
@@ -140,30 +180,30 @@ ATTRS specify additional attributes."
          (date (org-publish-find-date file project))
          (author (org-publish-find-property file :author project))
          (description (org-publish-find-property file :description project))
-	 (extension (or (plist-get info :html-extension) org-html-extension))
-	 (rel-file (org-publish-file-relative-name file info))
-	 (link-home (file-name-as-directory (plist-get info :html-link-home)))
+	     (extension (or (plist-get info :html-extension) org-html-extension))
+	     (rel-file (org-publish-file-relative-name file info))
+	     (link-home (file-name-as-directory (plist-get info :html-link-home)))
          (type (org-publish-find-property file :meta-type project))
-	 (full-url (concat link-home (file-name-sans-extension rel-file) "." extension)))
+	     (full-url (concat link-home (file-name-sans-extension rel-file) "." extension)))
     (mapconcat 'identity
                `(,(rw/org-html-close-tag "link" '(rel canonical) `(href ,full-url))
-		 ,(rw/org-html-close-tag "meta" '(property og:title) `(content ,title))
-		 ,(and description
+		         ,(rw/org-html-close-tag "meta" '(property og:title) `(content ,title))
+		         ,(and description
                        (rw/org-html-close-tag "meta" '(property og:description) `(content ,description)))
-		 ,(rw/org-html-close-tag "meta" '(property og:type) `(content ,type))
-		 ,(rw/org-html-close-tag "meta" '(property og:url) `(content ,full-url))
-		 ,(and (equal type "article")
+		         ,(rw/org-html-close-tag "meta" '(property og:type) `(content ,type))
+		         ,(rw/org-html-close-tag "meta" '(property og:url) `(content ,full-url))
+		         ,(and (equal type "article")
                        (rw/org-html-close-tag "meta" '(property article:published_time) `(content ,(format-time-string "%FT%T%z" date))))
 
-		 ,(rw/org-html-close-tag "meta" '(property twitter:title) `(content ,title))
-		 ,(rw/org-html-close-tag "meta" '(property twitter:url) `(content ,full-url))
-		 ,(and description
+		         ,(rw/org-html-close-tag "meta" '(property twitter:title) `(content ,title))
+		         ,(rw/org-html-close-tag "meta" '(property twitter:url) `(content ,full-url))
+		         ,(and description
                        (rw/org-html-close-tag "meta" '(property twitter:description) `(content ,description)))
-		 ,(and description
+		         ,(and description
                        (rw/org-html-close-tag "meta" '(property twitter:card) '(content summary)))
 
-		 )
-	       "\n")))
+		         )
+	           "\n")))
 
 (defun rw/org-html-publish-to-html (plist filename pub-dir)
   "Wrapper function to publish an file to html.
@@ -227,9 +267,10 @@ project."
              :publishing-function 'org-publish-attachment)
        (list "static"
              :recursive t
-	         :base-extension "txt\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|woff\\|woff2"
+	         :base-extension "txt\\|png\\|jpg\\|jpeg\\|gif\\|pdf\\|svg\\|woff\\|woff2"
 	         :base-directory "./content/static"
-	         :publishing-directory "./public"
+             :html-link-home website-base-url
+	         :publishing-directory "./public/static"
 	         :publishing-function 'org-publish-attachment)
        (list "pages"
              :recursive nil
@@ -294,7 +335,6 @@ project."
              :base-directory "./content"
 	         :publishing-function 'org-html-publish-to-html
 	         :publishing-directory "./public"
-	         ;; :exclude "emacs.org"
 	         :with-toc nil
 	         :with-title: nil
 	         :html-head head-template
