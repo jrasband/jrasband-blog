@@ -3,7 +3,7 @@
 * Test
 :properties:
 :rss_permalink: test.html
-:pubdate: 2025-06-05 Thu
-:ID:       F06374EC-5725-457E-8483-FB3114BCB465
+:pubdate: 2025-07-04 Fri
+:ID:       D03DCB06-7E47-4D65-BA37-0DFD88F07B2A
 :END:
-#+include: /Users/joshuarasband/Alexandria/30-Projects/jrasband-blog/content/blog/test.org :lines "3-"
+#+include: /Users/joshuarasband/Projects/jrasband-blog/content/blog/test.org :lines "3-"
