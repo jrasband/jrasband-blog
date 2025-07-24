@@ -14,9 +14,9 @@
 
     /* Typography */
     /* --font-heading: "Lexend", sans-serif; */
-    --font-body: 'Lexend', sans-serif;
-    --font-heading: "Josefin Sans", sans-serif; */
-    --font-mono: "Noto Sans Mono", ui-monospace, monospace;
+    --font-body: 'Inter', sans-serif;
+    --font-heading: 'Inter', sans-serif; */
+    --font-mono: 'Noto Sans Mono', ui-monospace, monospace;
 
     --h1-margin-top: 2rem;
     --h1-margin-bottom: 1.5rem;
